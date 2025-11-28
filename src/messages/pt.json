@@ -1,0 +1,181 @@
+{
+  "HomePage": {
+    "title": "Bem-vindo ao Huaypo Adventure",
+    "subtitle": "Descubra a magia dos Andes"
+  },
+  "Navbar": {
+    "links": {
+      "about": "Quem Somos",
+      "blog": "Blog",
+      "contact": "Fale Conosco",
+      "book": "Reservar Agora"
+    },
+    "menu": {
+      "incaTrail": "Trilha Inca",
+      "machuPicchu": "Machu Picchu",
+      "alternateTreks": "Trilhas Alternativas",
+      "dayTours": "Tours de um Dia",
+      "packages": "Pacotes Peru"
+    },
+    "actions": {
+      "language": "Português",
+      "explore": "Explorar Tudo"
+    }
+  },
+  "Hero": {
+    "title": "Explore Machu Picchu, Vale Sagrado, Vinicunca e o Melhor do Peru",
+    "subtitle": "Viaje em pequenos grupos e desfrute de passeios personalizados!",
+    "ctaTours": "Ver Tours Machu Picchu",
+    "ctaContact": "Consultar Agora"
+  },
+  "Intro": {
+    "title": "Viaje com confiança por todo o Peru em <highlight>pequenos grupos</highlight> com <highlight>Huaypo Adventure</highlight>",
+    "description": "Na Huaypo Adventure acreditamos que viajar vai além de visitar lugares - é sentir, aprender e conectar-se. Somos uma equipe apaixonada de Cusco guiando você por experiências autênticas: do nascer do sol mágico em Machu Picchu às cores vibrantes da Montanha Arco-íris, ao encontro com comunidades andinas em nossos tours experienciais. O que nos diferencia é como fazemos - com o coração, cuidando de cada detalhe para que sua aventura seja única e significativa. Conhecemos esses caminhos como apenas os locais podem, e queremos compartilhá-los com você assim como receberíamos um amigo em nossa terra. Pronto para viver o Peru de verdade? Esperamos você de braços abertos e as melhores rotas para descobrir."
+  },
+  "WhyUs": {
+    "title": "POR QUE VIAJAR COM HUAYPO ADVENTURE?",
+    "cards": {
+      "local": {
+        "title": "Empresa Local",
+        "description": "100% peruana oferecendo experiências autênticas e cheias de paixão."
+      },
+      "quality": {
+        "title": "Qualidade Garantida",
+        "description": "Com os mais altos padrões. Viva uma aventura segura e inesquecível em Cusco!"
+      },
+      "groups": {
+        "title": "Pequenos Grupos",
+        "description": "Com máximo de 12 pessoas para uma experiência personalizada e autêntica."
+      },
+      "sustainable": {
+        "title": "Viagem Sustentável",
+        "description": "Respeitamos o meio ambiente e apoiamos as comunidades locais."
+      },
+      "impact": {
+        "title": "Impacto Positivo",
+        "description": "Apoiamos o desenvolvimento das comunidades andinas."
+      },
+      "guides": {
+        "title": "Guias Locais",
+        "description": "Que lhe mostrarão a autêntica magia dos Andes. Junte-se a nós!"
+      }
+    }
+  },
+  "PopularTours": {
+    "title": "TOURS MAIS POPULARES DO PERU",
+    "viewAll": "Ver todos os tours",
+    "card": {
+      "bestSeller": "Mais Vendido",
+      "location": "Cusco - Peru",
+      "from": "A partir de",
+      "priceLabel": "Preço:",
+      "perPerson": "por pessoa",
+      "button": "Ver roteiro"
+    }
+  },
+  "RecommendedTreks": {
+    "title": "TRILHAS RECOMENDADAS PARA VOCÊ",
+    "viewAll": "Ver todas as trilhas",
+    "card": {
+      "button": "Ver roteiro"
+    }
+  },
+  "AboutPreview": {
+    "title": "Huaypo Adventure: Somos Exploradores, Para Exploradores",
+    "p1": "Na Huaypo Adventure, transformamos seus sonhos de explorar o Peru em aventuras inesquecíveis. Com paixão por criar experiências de viagem extraordinárias, nos especializamos na elaboração de viagens exclusivas e personalizadas para pequenos grupos ou privados.",
+    "p2": "Mergulhe na cultura vibrante, paisagens deslumbrantes e maravilhas antigas do Peru, guiado por nossa equipe de especialistas locais dedicados a tornar sua viagem única.",
+    "button": "Sobre Nós"
+  },
+  "BlogPreview": {
+    "title": "NOSSO BLOG, ARTIGOS E DICAS",
+    "viewAll": "Ver todos os artigos",
+    "card": {
+      "readMore": "Ler Artigo",
+      "min": "min"
+    }
+  },
+  "CustomTours": {
+    "title": "TOURS E PACOTES DE VIAGEM PERSONALIZADOS",
+    "p1": "Imagine ficar em uma casa na árvore nas profundezas da Amazônia ou alimentar alpacas da sua jacuzzi na varanda com os Andes como pano de fundo. Na Huaypo Adventure, todos os nossos tours são completamente personalizáveis, para que você possa desenhar a viagem dos seus sonhos ao Peru do zero.",
+    "p2": "De experiências únicas fora do circuito turístico a acomodações cuidadosamente selecionadas, traslados e voos, cuidamos de cada detalhe. Entre em contato hoje mesmo para começar a planejar sua viagem única!",
+    "button": "Saiba mais"
+  },
+  "Reviews": {
+    "title": "Nossos viajantes nos conhecem",
+    "list": [
+      {
+        "title": "Lindas vistas",
+        "text": "Pontual e solícitos, nos deixaram seguros sempre perguntando nossas necessidades. Fomos a Moray andamos de quadriciclo, visitamos as Salineras de Maras além de uma parada em Chinchero.",
+        "author": "Francielle Tanamati",
+        "date": "Out 2025"
+      },
+      {
+        "title": "Experiência incrível",
+        "text": "Hermosa experiencia, el trato super amable, en todo momento nos brindaron información necesaria y hacer paddle en la laguna fue extraordinario, mil gracias a Carlos y Juvenal.",
+        "author": "Kelia L",
+        "date": "Out 2025"
+      },
+      {
+        "title": "Passeio inesquecível!",
+        "text": "Nossa experiencia Huaypo Adventure foi excelente. Nosso guia foi o Carlos e o condutor Fabrício. Foi uma experiência incrível, cheia de cuidado e profissionalismo.",
+        "author": "Aline",
+        "date": "Out 2025"
+      },
+      {
+        "title": "A melhor experiência",
+        "text": "Carlos nos brindó sin dudarlo un excelente servicio, nos atendieron muy bien y en todo momento no sólo te guían, te ayudan a sacarte las mejores fotos para el recuerdo.",
+        "author": "Adriana C",
+        "date": "Out 2025"
+      }
+    ]
+  },
+  "Partners": {
+    "title": "Fazemos parte de"
+  },
+  "Footer": {
+    "company": {
+      "title": "Empresa",
+      "about": "Sobre Nós",
+      "projects": "Projetos Sociais",
+      "code": "Código ESNNA"
+    },
+    "tours": {
+      "title": "Nossos Tours",
+      "packages": "Pacotes Peru",
+      "dayTrips": "Day Trips",
+      "machuPicchu": "Machu Picchu",
+      "treks": "Trilhas Alternativas"
+    },
+    "links": {
+      "title": "Links Úteis",
+      "plan": "Planeje sua aventura",
+      "contact": "Fale Conosco",
+      "blog": "Blog",
+      "terms": "Termos e Condições",
+      "privacy": "Políticas e Privacidade"
+    },
+    "hours": {
+      "title": "Horário de Atendimento",
+      "weekdays": "Segunda a Sexta",
+      "weekdaysTime": "7h – 20h",
+      "saturdays": "Sábados",
+      "saturdaysTime": "7h – 20h",
+      "address": "Calle Marquez 122 - Of. 112 Cusco - Peru"
+    },
+    "contacts": {
+      "title": "Nossos Contatos",
+      "email": "info@huaypoadventure.com",
+      "phone": "+51 935 327 962",
+      "whatsapp": "+51 903 102 547"
+    },
+    "socials": "Nossas redes sociais",
+    "payments": "Formas de pagamento",
+    "complaints": "Livro de reclamações",
+    "legal": {
+      "companyName": "Huaypo Adventure, Tour Operator E.I.R.L.",
+      "ruc": "RUC: 20608615106",
+      "rights": "Todos os direitos reservados",
+      "developer": "Desenvolvido por"
+    }
+  }
+}

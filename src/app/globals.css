@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* 1. BLOQUE THEME: Solo variables (Colores, Fuentes, Animaciones) */
+@theme {
+  /* --- TIPOGRAFÍA BASE --- */
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* --- PALETA DE COLORES --- */
+  --color-brand-dark: #0b0e1c;
+  --color-brand-blue: #15a0ff;
+  --color-brand-yellow: #ffc94b;
+  --color-brand-gray: whitesmoke;
+  --color-brand-pale: #f0f9ff;
+  --color-brand-cream: #fff7e5;
+  --color-brand-green: #7dd532;
+  --color-brand-orange: #fe5b46;
+  --color-brand-bronze: #bf9738;
+  --color-brand-white: #ffffff;
+  --color-brand-beige: #fff2d7;
+}
+
+/* 2. UTILIDADES: Clases personalizadas (FUERA de @theme) */
+
+@utility text-h1 {
+  font-size: 3.815rem; /* 61.04px */
+  line-height: 1.1;
+}
+
+@utility text-h2 {
+  font-size: 3.052rem; /* 48.83px */
+  line-height: 1.15;
+}
+
+@utility text-h3 {
+  font-size: 2.441rem; /* 39.06px */
+  line-height: 1.2;
+}
+
+@utility text-h4 {
+  font-size: 1.953rem; /* 31.25px */
+  line-height: 1.25;
+}
+
+@utility text-h5 {
+  font-size: 1.5625rem; /* 25px */
+  line-height: 1.3;
+}
+
+@utility text-h6 {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.4;
+}
+
+@utility text-p {
+  font-size: 1rem;    /* 16px */
+  line-height: 1.6;
+}
+
+@utility text-small {
+  font-size: 0.8rem;  /* 12.8px */
+  line-height: 1.5;
+}
+
+@utility text-tiny {
+  font-size: 0.64rem; /* 10.24px */
+  line-height: 1.5;
+}
+
+/* Resto de estilos globales si los hubiera */
+:root {
+  --background: var(--color-brand-gray);
+  --foreground: var(--color-brand-dark);
+}
