@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import Container from "@/components/ui/Container";
-import TrekCard from "@/components/tours/TrekCard"; // Usamos la tarjeta nueva
+import TrekCard from "@/components/tours/TrekCard"; 
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function RecommendedTreks() {
@@ -12,7 +12,7 @@ export default function RecommendedTreks() {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // DATOS REALES (Extraídos de tu HTML de Webflow)
+  // DATOS REALES
   const treks = [
     {
       id: 1,
@@ -25,7 +25,7 @@ export default function RecommendedTreks() {
       id: 2,
       title: "Camino Inca con Hotel",
       duration: "2 días 1 noche",
-      image: "https://cdn.prod.website-files.com/67fc33cd1b7d14a179b6ad62/682fd3c1669955c97bc91db4_pexels-chelsea-cook-1520634-2929906.webp", // Nota: Revisa si la imagen es la misma en tu diseño original o cámbiala
+      image: "https://cdn.prod.website-files.com/67fc33cd1b7d14a179b6ad62/682fd3c1669955c97bc91db4_pexels-chelsea-cook-1520634-2929906.webp", 
       slug: "camino-inca-2d-1n-hotel"
     },
     {
@@ -51,7 +51,6 @@ export default function RecommendedTreks() {
     }
   ];
 
-  // Lógica de Scroll (Idéntica a PopularTours para consistencia UX)
   const scroll = (direction: "left" | "right") => {
     if (scrollContainerRef.current) {
       const container = scrollContainerRef.current;
@@ -85,30 +84,34 @@ export default function RecommendedTreks() {
       <Container>
         
         {/* Cabecera */}
-        <div className="flex flex-col md:flex-row justify-between items-end md:items-center mb-10 gap-6">
-          
+        <div className="flex flex-col md:flex-row justify-between items-end md:items-center mb-2 gap-6">
           <h2 className="text-h3 md:text-h2 font-extrabold text-brand-dark uppercase tracking-wide">
             {t("title")}
           </h2>
           <div className="h-1 w-20 bg-brand-yellow mt-4 rounded-full"></div>
-          
 
-          {/* Botones Flechas */}
+          {/* Botones Flechas Premium */}
           <div className="hidden md:flex gap-3">
-            <button onClick={() => scroll("left")} className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-brand-dark hover:bg-brand-dark hover:text-white transition-all shadow-sm">
-              <ChevronLeft size={20} />
+            <button 
+              onClick={() => scroll("left")}
+              className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center text-brand-dark hover:border-brand-dark hover:bg-brand-dark hover:text-white transition-all duration-300 group"
+            >
+              <ChevronLeft size={22} strokeWidth={1.5} className="group-hover:-translate-x-0.5 transition-transform" />
             </button>
-            <button onClick={() => scroll("right")} className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-brand-dark hover:bg-brand-dark hover:text-white transition-all shadow-sm">
-              <ChevronRight size={20} />
+            <button 
+              onClick={() => scroll("right")}
+              className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center text-brand-dark hover:border-brand-dark hover:bg-brand-dark hover:text-white transition-all duration-300 group"
+            >
+              <ChevronRight size={22} strokeWidth={1.5} className="group-hover:translate-x-0.5 transition-transform" />
             </button>
           </div>
         </div>
 
-        {/* Carrusel (Scroll Snap) */}
+        {/* Carrusel (Con Padding extra para evitar cortes) */}
         <div 
           ref={scrollContainerRef}
           onScroll={handleScroll}
-          className="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-8 scrollbar-hide -mx-5 px-5 md:mx-0 md:px-0"
+          className="flex gap-6 overflow-x-auto snap-x snap-mandatory py-10 scrollbar-hide -mx-5 px-5 md:mx-0 md:px-0"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
           {treks.map((trek) => (
@@ -130,7 +133,7 @@ export default function RecommendedTreks() {
         </div>
 
         {/* Puntitos */}
-        <div className="flex justify-center gap-2 mt-2">
+        <div className="flex justify-center gap-2 -mt-2">
             {treks.map((_, index) => (
                 <button
                     key={index}

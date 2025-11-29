@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
-import { MapPin, ChevronRight } from "lucide-react";
+import { MapPin, ChevronRight, Star } from "lucide-react";
 
 interface TourCardProps {
   image: string;
@@ -17,11 +17,16 @@ export default function TourCard({ image, title, price, slug, isBestSeller = tru
   const t = useTranslations("PopularTours.card");
 
   return (
-    // CAMBIO 1: Agregamos 'h-full' para que la tarjeta ocupe toda la altura que le da el slider
-    <div className="group bg-white border border-gray-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 h-full flex flex-col">
+    // CAMBIO 1: Quitamos 'overflow-hidden' del padre. 
+    // Mantenemos 'rounded-2xl' para la forma base de la sombra y el borde.
+    // Agregamos 'z-0' para contexto de apilamiento.
+    <div className="group relative h-full flex flex-col bg-white rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] border border-gray-200 hover:border-transparent z-0">
       
-      {/* --- IMAGEN (Aspect Ratio 4:5) --- */}
-      <div className="relative w-full aspect-[4/5] overflow-hidden bg-gray-100 flex-shrink-0">
+      {/* --- IMAGEN (Hijo Superior) --- 
+          CAMBIO 2: Aplicamos 'rounded-t-2xl' y 'overflow-hidden' AQUÍ. 
+          Así la imagen se recorta al hacer zoom, pero no afecta al resto de la tarjeta.
+      */}
+      <div className="relative w-full aspect-[4/5] overflow-hidden rounded-t-2xl">
         <Image
           src={image}
           alt={title}
@@ -30,56 +35,59 @@ export default function TourCard({ image, title, price, slug, isBestSeller = tru
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
         
-        {/* Badge Best Seller */}
+        {/* Overlay degradado */}
+        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/40 to-transparent opacity-60"></div>
+
+        {/* Badge */}
         {isBestSeller && (
-          <div className="absolute top-4 left-4 bg-brand-orange text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
+          <div className="absolute top-4 left-4 bg-gradient-to-r from-brand-orange to-brand-yellow text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider shadow-lg flex items-center gap-1 z-10">
+            <Star size={10} fill="currentColor" />
             {t("bestSeller")}
           </div>
         )}
       </div>
 
-      {/* --- CONTENIDO --- */}
-      {/* CAMBIO 2: 'flex-grow' permite que este div crezca para llenar el hueco vacío */}
-      <div className="p-5 flex flex-col flex-grow">
+      {/* --- CONTENIDO (Hijo Inferior) --- 
+          CAMBIO 3: Aplicamos 'rounded-b-2xl' explícito.
+          Esto asegura que el fondo blanco respete la curva inferior y no se "salga" del padre.
+          Añadimos '-mt-1 pt-7' (margen negativo) para fusionar visualmente ambas partes y evitar líneas blancas finas.
+      */}
+      <div className="p-6 pt-7 flex flex-col flex-grow relative z-10 bg-white rounded-b-2xl -mt-1">
         
-        {/* Bloque Superior (Ubicación y Título) */}
-        <div>
-            {/* Ubicación */}
-            <div className="flex items-center gap-1 text-gray-500 text-[12px] mb-2 font-medium">
+        {/* Ubicación */}
+        <div className="flex items-center gap-1.5 text-brand-dark text-tiny md:text-small  font-bold uppercase tracking-widest mb-3">
             <MapPin size={14} className="text-brand-blue" />
             <span>{t("location")}</span>
-            </div>
-
-            {/* Título */}
-            {/* Quitamos line-clamp estricto o lo dejamos en 3 para seguridad, 
-                pero ahora la altura se gestiona sola */}
-            <h3 className="text-h5 md:text-h4 font-bold text-brand-dark mb-4 group-hover:text-brand-blue transition-colors">
-            {title}
-            </h3>
         </div>
 
-        {/* Bloque Inferior (Precio y Botón) */}
-        {/* CAMBIO 3: 'mt-auto' es el secreto. Empuja este bloque siempre al final de la tarjeta */}
-        <div className="mt-auto pt-4 border-t border-gray-50">
-          <p className="text-[12px] text-gray-500 mb-1">{t("priceLabel")}</p>
-          <div className="flex items-baseline gap-1">
-            <span className="text-[13px] text-gray-600 font-medium">{t("from")}</span>
-            <span className="text-[22px] font-black text-brand-blue">${price}</span>
-            <span className="text-[13px] text-gray-500">{t("perPerson")}</span>
+        {/* Título */}
+        <h3 className="text-h5 font-extrabold text-brand-dark mb-2 leading-tight group-hover:text-brand-blue transition-colors duration-300">
+          {title}
+        </h3>
+
+        {/* Footer de la tarjeta */}
+        <div className="mt-auto pt-6 border-t border-gray-200 flex items-center justify-between gap-4">
+          <div className="flex flex-col">
+            <span className="text-tiny md:text-small text-gray-400 font-medium uppercase">{t("from")}</span>
+            
+            <div className="flex items-baseline gap-1">
+                <span className="text-h5 font-extrabold text-brand-dark">${price}</span>
+            </div>
+
+            {/* --- NUEVO: TEXTO POR PERSONA --- */}
+            <span className="text-tiny md:text-small  text-gray-500 font-medium -mt-1">
+                {t("perPerson")}
+            </span>
           </div>
           
-          {/* Botón */}
-          <div className="mt-5">
-            <Link 
-                href={`/tours/${slug}`}
-                className="w-full flex items-center justify-center gap-2 py-3 bg-brand-pale text-brand-blue font-bold rounded-lg hover:bg-brand-blue hover:text-white transition-all duration-300 uppercase tracking-wider text-sm group/btn"
-            >
-                {t("button")}
-                <ChevronRight size={18} className="transition-transform duration-300 group-hover/btn:translate-x-1" />
-            </Link>
-            </div>
+          <Link 
+              href={`/tours/${slug}`}
+              className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-gray-200 text-brand-dark font-bold text-tiny md:text-small uppercase tracking-wide group/btn hover:bg-brand-dark hover:border-brand-dark hover:text-white transition-all duration-300"
+          >
+              {t("button")}
+              <ChevronRight size={16} className="transition-transform duration-300 group-hover/btn:translate-x-1" />
+          </Link>
         </div>
-
       </div>
     </div>
   );

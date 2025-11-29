@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image"; // IMPORTANTE: Importar Image
+import Image from "next/image";
 import { useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import Container from "@/components/ui/Container";
@@ -59,22 +59,22 @@ export default function Reviews() {
   };
 
   return (
-    <section className="w-full bg-brand-cream py-20 md:py-28">
+    // Color de fondo crema suave
+    <section className="w-full bg-[#fff7e5] py-20 md:py-28">
       <Container>
         
         {/* Cabecera Centrada */}
-        <div className="flex flex-col items-center text-center mb-4">
-            {/* CORRECCIÓN: Usamos la imagen original de Webflow */}
-            <div className="mb-2 relative w-[50px] h-[50px]">
+        <div className="flex flex-col items-center text-center mb-8">
+            <div className="mb-4 relative w-[50px] h-[50px]">
                 <Image 
                     src="https://cdn.prod.website-files.com/67fc0e4b369534d2c5f2e0c3/68b33b7afb4f82f391121508_icon-quote.svg"
                     alt="Quote Icon"
                     fill
-                    className="object-contain"
+                    className="object-contain opacity-80"
                 />
             </div>
             
-            <h2 className="text-h3 md:text-h2 font-extrabold text-brand-dark mt-2">
+            <h2 className="text-h3 md:text-h2 font-extrabold text-brand-dark max-w-2xl mx-auto">
                 {t("title")}
             </h2>
         </div>
@@ -83,7 +83,8 @@ export default function Reviews() {
         <div 
             ref={scrollContainerRef}
             onScroll={handleScroll}
-            className="flex gap-8 overflow-x-auto snap-x snap-mandatory pt-16 pb-8 scrollbar-hide -mx-5 px-5 md:mx-0 md:px-0"
+            // Aumentamos padding vertical (py-12) para que las sombras y avatares no se corten
+            className="flex gap-8 overflow-x-auto snap-x snap-mandatory py-12 scrollbar-hide -mx-5 px-5 md:mx-0 md:px-0"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
             {reviewsData.map((review, index) => (
@@ -105,34 +106,38 @@ export default function Reviews() {
             ))}
         </div>
 
-        {/* Controles */}
-        <div className="flex items-center justify-between mt-2 px-4 md:px-0">
+        {/* CONTROLES INFERIORES */}
+        <div className="flex items-center justify-between mt-4 px-4 md:px-0 max-w-sm mx-auto">
+            {/* Botón Izquierda Premium */}
             <button 
                 onClick={() => scroll("left")}
-                className="w-12 h-12 rounded-full bg-[#008a3c] flex items-center justify-center text-white hover:bg-[#006e30] transition-colors shadow-lg hover:scale-105"
+                className="w-12 h-12 rounded-full border border-gray-300 bg-white flex items-center justify-center text-brand-dark hover:border-brand-dark hover:bg-brand-dark hover:text-white transition-all shadow-sm hover:shadow-md group"
             >
-                <ChevronLeft size={24} strokeWidth={3} />
+                <ChevronLeft size={22} strokeWidth={1.5} className="group-hover:-translate-x-0.5 transition-transform" />
             </button>
 
-            <div className="flex gap-3">
+            {/* Paginación */}
+            <div className="flex gap-2.5">
                 {reviewsData.map((_, index) => (
                     <button
                         key={index}
                         onClick={() => scrollToSlide(index)}
-                        className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                        className={`h-2.5 rounded-full transition-all duration-300 ${
                             activeIndex === index 
-                            ? "bg-[#008a3c] scale-125" 
-                            : "bg-gray-300"
+                            ? "w-8 bg-brand-yellow" 
+                            : "w-2.5 bg-gray-300 hover:bg-gray-400"
                         }`}
+                        aria-label={`Go to review ${index + 1}`}
                     />
                 ))}
             </div>
 
+            {/* Botón Derecha Premium */}
             <button 
                 onClick={() => scroll("right")}
-                className="w-12 h-12 rounded-full bg-[#008a3c] flex items-center justify-center text-white hover:bg-[#006e30] transition-colors shadow-lg hover:scale-105"
+                className="w-12 h-12 rounded-full border border-gray-300 bg-white flex items-center justify-center text-brand-dark hover:border-brand-dark hover:bg-brand-dark hover:text-white transition-all shadow-sm hover:shadow-md group"
             >
-                <ChevronRight size={24} strokeWidth={3} />
+                <ChevronRight size={22} strokeWidth={1.5} className="group-hover:translate-x-0.5 transition-transform" />
             </button>
         </div>
 
