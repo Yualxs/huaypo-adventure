@@ -54,7 +54,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning className={figtree.variable}>
-      <body className="antialiased bg-gray-50 text-slate-900">
+      <body className="antialiased bg-gray-50 text-slate-900" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}

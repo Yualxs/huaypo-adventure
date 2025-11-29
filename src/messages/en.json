@@ -178,5 +178,51 @@
       "rights": "All rights reserved",
       "developer": "Developed by"
     }
+  },
+  "AboutPage": {
+    "Hero": {
+      "title": "About Us",
+      "subtitle": "Meet the team behind your next adventure"
+    },
+    "Intro": {
+      "title": "Your Travel Agency for Unforgettable Tours and Adventures in Cusco",
+      "description": "At Huaypo Adventure, our purpose is simple: to transform your trip to Peru into a collection of authentic and memorable experiences. As your expert travel agency in Cusco, we are passionately dedicated to revealing the incomparable cultural richness and majestic natural beauty that this region offers."
+    },
+    "Team": {
+      "title": "Our Huaypo Adventure Team",
+      "guides": {
+        "title": "Our Local Guides Team",
+        "desc": "They are the heart of Huaypo Adventure. Expert professionals passionate about Peru's history and culture. They will not only show you the landscapes but also share the stories and traditions that make each destination unique."
+      },
+      "drivers": {
+        "title": "Our Drivers Team",
+        "desc": "Behind every successful adventure is the tireless effort of our transport team. With a smile and admirable disposition, they handle all logistics to make your trip safe, comfortable, and pleasant."
+      },
+      "cooks": {
+        "title": "Our Local Cooks Team",
+        "desc": "Gastronomy is essential. With skill and creativity, they prepare delicious and nutritious dishes using fresh local ingredients. Our cooks not only feed your body but give you a taste of the authentic flavor of our land."
+      }
+    },
+    "Values": {
+      "title": "Our Company",
+      "mission": {
+        "title": "Our Mission",
+        "desc": "We are a tour operator offering unique and authentic experiences in Peru, meeting the highest standards of quality and social responsibility."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "desc": "By 2030, to be one of the most competitive and sustainable tourism companies in Cusco, providing quality and safe services to travelers worldwide."
+      },
+      "coreTitle": "Our Values",
+      "core": {
+        "honesty": { "title": "Honesty", "desc": "We promote truth to build trust." },
+        "security": { "title": "Security", "desc": "We guarantee our well-being and that of our clients." },
+        "respect": { "title": "Respect", "desc": "We value others, the environment, and our heritage." },
+        "responsibility": { "title": "Responsibility", "desc": "Committed to sustainable development." }
+      }
+    },
+    "Certifications": {
+      "title": "We are a fully authorized company"
+    }
   }
 }

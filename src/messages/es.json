@@ -178,5 +178,270 @@
       "rights": "Todos derechos reservados",
       "developer": "Desarrollado por"
     }
+  },
+  "AboutPage": {
+    "Hero": {
+      "title": "Acerca de Nosotros",
+      "subtitle": "Conoce al equipo detrás de tu próxima aventura"
+    },
+    "Intro": {
+      "eyebrow": "Nuestra Esencia",
+      "title": "Tu Agencia de Viajes para Tours y Aventuras Inolvidables en Cusco",
+      "highlight": "En Huaypo Adventure, nuestra razón de ser es simple:",
+      "description": "En Huaypo Adventure, nuestra razón de ser es simple: transformar tu viaje a Perú en una colección de experiencias auténticas y memorables. Como tu agencia de viajes experta en Cusco, nos dedicamos apasionadamente a revelar la incomparable riqueza cultural y la majestuosa belleza natural que esta región y todo el Perú ofrecen."
+    },
+    "Team": {
+      "title": "Nuestro Equipo Huaypo Adventure",
+      "guides": {
+        "title": "Nuestro equipo de Guías Locales",
+        "desc": "Son el corazón de Huaypo Adventure. Profesionales expertos y apasionados por la historia y cultura de Perú. No solo te mostrarán los paisajes, sino que compartirán contigo las historias y tradiciones que hacen de cada destino un lugar único."
+      },
+      "drivers": {
+        "title": "Nuestro equipo de Conductores",
+        "desc": "Detrás de cada aventura exitosa está el esfuerzo incansable de nuestro equipo de transporte. Con una sonrisa y una disposición admirable, se encargan de toda la logística para que tu viaje sea seguro, cómodo y placentero."
+      },
+      "cooks": {
+        "title": "Nuestro equipo de Cocineros Locales",
+        "desc": "La gastronomía es esencial. Con habilidad y creatividad, preparan deliciosos y nutritivos platos utilizando ingredientes frescos y locales. Nuestros cocineros no solo alimentan tu cuerpo, sino que te brindan una probada del auténtico sabor de nuestra tierra."
+      }
+    },
+    "Values": {
+      "title": "Nuestra Empresa",
+      "mission": {
+        "title": "Nuestra Misión",
+        "desc": "Somos una empresa operadora que ofrece experiencias únicas y auténticas en Perú, cumpliendo con los más altos estándares de calidad y responsabilidad social."
+      },
+      "vision": {
+        "title": "Nuestra Visión",
+        "desc": "Al 2030, ser una de las empresas turísticas más competitivas y sostenibles de Cusco, brindando servicios con calidad y seguridad a viajeros de todo el mundo."
+      },
+      "coreTitle": "Nuestros Valores",
+      "core": {
+        "honesty": { "title": "Honestidad", "desc": "Promovemos la verdad para generar confianza." },
+        "security": { "title": "Seguridad", "desc": "Garantizamos nuestro bienestar y el de nuestros clientes." },
+        "respect": { "title": "Respeto", "desc": "Valoramos a los demás, al medio ambiente y nuestro patrimonio." },
+        "responsibility": { "title": "Responsabilidad", "desc": "Comprometidos con el desarrollo sostenible." }
+      }
+    },
+    "Certifications": {
+      "title": "Somos una empresa plenamente autorizada"
+    }
+  },
+  "PlanPage": {
+    "Hero": {
+      "title": "Planea tus viajes con nosotros"
+    },
+    "Intro": {
+      "title": "Planifica tu Viaje a Machu Picchu y Vive lo Mejor del Perú",
+      "description": "Emprenda un viaje a su medida con nuestros exclusivos viajes a medida por Perú. Nuestros itinerarios personalizados le dan la libertad de diseñar su viaje perfecto, desde el momento y el modo de viajar hasta el nivel de servicio y la calidad de los hoteles."
+    },
+    "Form": {
+      "title": "Diseña tu Experiencia Perfecta",
+      "subtitle": "Cuéntanos tus sueños de viaje y nosotros nos encargamos de la logística.",
+      "contactInfo": "Tus Datos",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono / WhatsApp",
+      "country": "País de Residencia",
+      
+      "tripDetails": "Tu Aventura",
+      "dates": "Fechas Tentativas",
+      "arrival": "Llegada",
+      "departure": "Salida",
+      "travelers": "Viajeros",
+      "travelersPlaceholder": "N° Personas",
+      
+      "interestsTitle": "¿Qué buscas en este viaje?",
+      "interests": {
+        "culture": "Cultura e Historia",
+        "adventure": "Aventura y Trekking",
+        "nature": "Naturaleza",
+        "food": "Gastronomía",
+        "luxury": "Lujo y Confort",
+        "family": "Familiar"
+      },
+      
+      "budgetTitle": "Presupuesto aproximado por persona (USD)",
+      "budget": {
+        "economy": "$500 - $1000",
+        "standard": "$1000 - $2000",
+        "premium": "$2000 - $3500",
+        "luxury": "$3500+"
+      },
+
+      "hotelTitle": "Categoría de Hotel Preferida",
+      "messageLabel": "Cuéntanos más (Requerimientos especiales, dudas...)",
+      "submit": "Solicitar Propuesta Personalizada",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Un asesor experto te contactará pronto."
+    }
+  },
+  "ContactPage": {
+    "Hero": {
+      "title": "Contacta con nosotros"
+    },
+    "Intro": {
+      "title": "Contacte con nuestros especialistas en viajes de aventura en Perú",
+      "address": "Dirección",
+      "addressValue": "Calle Marquez, Ciudad del Cusco, Perú",
+      "phone": "Teléfono / WhatsApp",
+      "email": "Correo electrónico",
+      "socials": "Nuestras redes sociales"
+    },
+    "Form": {
+      "name": "Nombre y Apellido",
+      "email": "Correo electrónico",
+      "phone": "Teléfono / WhatsApp",
+      "country": "País",
+      "message": "Comentario o Mensaje",
+      "terms": "He leído y acepto la Política de privacidad.",
+      "submit": "Enviar consulta"
+    },
+    "Map": {
+      "title": "Nuestra ubicación en Google Maps"
+    }
+  },
+  "EsnnaPage": {
+    "Hero": {
+      "title": "Código ESNNA"
+    },
+    "Intro": {
+      "title": "Código de Conducta contra la ESNNA y nuestro Compromiso",
+      "description": "En Huaypo Adventure, asumimos el compromiso de promover y llevar a cabo una serie de acciones conjuntas para prevenir y eliminar el problema de la Explotación Sexual de Niños, Niñas y Adolescentes en la prestación de nuestros servicios."
+    },
+    "Content": {
+      "title": "Medidas Adoptadas por Huaypo Adventure Contra la ESNNA",
+      "p1": "En <strong class='text-brand-blue'>Huaypo Adventure</strong>, estamos firmemente comprometidos con la adhesión al Código de Conducta para combatir la Explotación Sexual Comercial de Niños, Niñas y Adolescentes (ESNNA).",
+      "list1Title": "1. Compromisos Institucionales",
+      "list1Items": [
+        "<strong>Firma del Código de Conducta:</strong> Como agencia de viajes y operador turístico, hemos firmado el Código de Conducta contra la ESNNA ante GERCETUR.",
+        "<strong>Adhesión de Grupos de Interés:</strong> Todos los grupos de interés involucrados en nuestras operaciones (guías, cocineros, conductores...) están alineados con este compromiso."
+      ],
+      "list2Title": "2. Acciones de Sensibilización y Formación",
+      "list2Items": [
+        "<strong>Capacitación Interna:</strong> Promovemos la sensibilización de todo nuestro equipo.",
+        "<strong>Capacitación Externa:</strong> Extendemos esta formación a nuestros grupos de interés."
+      ],
+      "list3Title": "3. Prohibiciones Específicas",
+      "list3Desc": "De acuerdo con nuestros valores, ningún miembro participa en:",
+      "list3Items": [
+        "La utilización de niños y adolescentes en actividades pornográficas.",
+        "El turismo sexual.",
+        "El tráfico de niños y adolescentes con fines de explotación sexual."
+      ],
+      "final": "En Huaypo Adventure, nuestra misión no solo es ofrecer experiencias inolvidables, sino también actuar como agentes de cambio social."
+    }
+  },
+  "PrivacyPage": {
+    "Hero": {
+      "title": "Políticas de Privacidad"
+    },
+    "Content": {
+      "intro": "Leer detalladamente nuestras políticas de datos y privacidad de la información, para nosotros nuestros visitantes son importantes, por ello queremos que tengan presente nuestros términos en manejo de su información.",
+      "sections": [
+        {
+          "title": "Somos Huaypo Adventure",
+          "content": "La dirección de nuestra web es: https://www.huaypoadventure.com"
+        },
+        {
+          "title": "Comentarios",
+          "content": "Cuando los visitantes dejan comentarios en la web, recopilamos los datos que se muestran en el formulario de comentarios, así como la dirección IP del visitante y la cadena de agentes de usuario del navegador para ayudar a la detección de spam.<br><br>Una cadena anónima creada a partir de tu dirección de correo electrónico (también llamada hash) puede ser proporcionada al servicio de Gravatar para ver si la estás usando."
+        },
+        {
+          "title": "Medios",
+          "content": "Si subes imágenes a la web, deberías evitar subir imágenes con datos de ubicación (GPS EXIF) incluidos. Los visitantes de la web pueden descargar y extraer cualquier dato de ubicación de las imágenes de la web."
+        },
+        {
+          "title": "Cookies",
+          "content": "Si dejas un comentario en nuestro sitio puedes elegir guardar tu nombre, dirección de correo electrónico y web en cookies. Esto es para tu comodidad.<br><br>Si tienes una cuenta y te conectas a este sitio, instalaremos una cookie temporal para determinar si tu navegador acepta cookies."
+        },
+        {
+          "title": "Contenido incrustado de otros sitios web",
+          "content": "Los artículos de este sitio pueden incluir contenido incrustado (por ejemplo, vídeos, imágenes, artículos, etc.). El contenido incrustado de otras webs se comporta exactamente de la misma manera que si el visitante hubiera visitado la otra web."
+        },
+        {
+          "title": "Con quién compartimos tus datos",
+          "content": "Si solicitas un restablecimiento de contraseña, tu dirección IP será incluida en el correo electrónico de restablecimiento."
+        },
+        {
+          "title": "Cuánto tiempo conservamos tus datos",
+          "content": "Si dejas un comentario, el comentario y sus metadatos se conservan indefinidamente. De los usuarios que se registran en nuestra web, también almacenamos la información personal que proporcionan en su perfil de usuario."
+        },
+        {
+          "title": "Qué derechos tienes sobre tus datos",
+          "content": "Si tienes una cuenta o has dejado comentarios en esta web, puedes solicitar recibir un archivo de exportación de los datos personales que tenemos sobre ti, incluyendo cualquier dato que nos hayas proporcionado."
+        }
+      ]
+    }
+  },
+  "TermsPage": {
+    "Hero": {
+      "title": "Términos y Condiciones"
+    },
+    "Content": {
+      "intro": "Por favor, lea cuidadosamente la siguiente información antes de realizar la reserva de viaje. Estas políticas garantizan la transparencia y seguridad de su experiencia con Huaypo Adventure.",
+      "sections": [
+        {
+          "title": "1. Detalles necesarios para reservar",
+          "content": "Realice la reserva una vez tenga todos los datos: nombres, pasaportes, nacionalidades y edades. Si algún miembro no tiene pasaporte, espere a tenerlo.<br><br><strong>Importante:</strong> El nombre y número de pasaporte enviados serán impresos en su permiso de viaje. Después de la compra, NO podemos cambiar estos datos. Los guardianes del Camino Inca verificarán esta información estrictamente."
+        },
+        {
+          "title": "2. Llegada a Cusco y Aclimatación",
+          "content": "Se recomienda llegar a Cusco al menos 2 días antes de la salida para aclimatación y realizar el pago restante. Idealmente, 3 días antes aseguran una mejor adaptación a la altitud."
+        },
+        {
+          "title": "3. Pagos y Depósitos",
+          "content": "Se requiere un depósito del 50% del monto total al reservar. Una vez recibido, enviaremos el voucher de servicios confirmados en 24 horas para su conformidad."
+        },
+        {
+          "title": "4. Descuentos de Estudiantes",
+          "content": "Válido hasta los 25 años con Carnet de Estudiante Original (con foto, datos y vigencia). Debe enviarnos un escaneo claro al reservar. Si no se envía a tiempo o no se porta el original en el viaje, se cobrará tarifa de adulto."
+        },
+        {
+          "title": "5. Descuentos de Niños",
+          "content": "Menores de 16 años reciben descuento. Debe enviarnos escaneo del pasaporte del niño 3 días antes de aceptar la reserva."
+        },
+        {
+          "title": "Políticas de Modificación",
+          "content": "<ul class='list-disc pl-5 space-y-2'><li>Antes de 30 días: Sin penalidad.</li><li>Entre 15 y 30 días: 20% de penalidad.</li><li>Menos de 15 días: 30% de penalidad.</li></ul><br><strong>Nota para Camino Inca:</strong> Solo se permiten cambios de número de pasaporte hasta 5 días antes."
+        },
+        {
+          "title": "Políticas de Cancelación",
+          "content": "<ul class='list-disc pl-5 space-y-2'><li>Antes de 30 días: 15% de penalidad (gastos administrativos).</li><li>Entre 10 y 30 días: 20% de penalidad.</li><li>Entre 2 y 9 días: 50% de penalidad.</li></ul><br><strong>Para Camino Inca (Estricto):</strong><br><ul class='list-disc pl-5 space-y-2 mt-2'><li>Antes de 30 días: 50% penalidad.</li><li>15-30 días: 70% penalidad.</li><li>Menos de 15 días: 100% penalidad.</li></ul>"
+        }
+      ]
+    }
+  },
+  "BlogPage": {
+    "Hero": {
+      "title": "Diario de Aventuras",
+      "subtitle": "Historias, guías y secretos de los Andes para el viajero moderno."
+    },
+    "Categories": {
+      "all": "Ver Todo",
+      "culture": "Cultura e Historia",
+      "adventure": "Aventura",
+      "tips": "Consejos de Viaje",
+      "gastronomy": "Gastronomía"
+    },
+    "Featured": {
+      "badge": "Artículo Destacado",
+      "readTime": "Lectura de 8 min"
+    },
+    "Newsletter": {
+      "title": "Únete a nuestra comunidad de viajeros",
+      "subtitle": "Recibe guías exclusivas y descuentos secretos directamente en tu correo.",
+      "placeholder": "Tu correo electrónico",
+      "button": "Suscribirme"
+    }
+  },
+  "BlogPost": {
+    "meta": {
+      "author": "Escrito por",
+      "date": "Publicado el",
+      "readTime": "min de lectura",
+      "share": "Compartir este artículo"
+    },
+    "related": "Más historias de viaje"
   }
 }

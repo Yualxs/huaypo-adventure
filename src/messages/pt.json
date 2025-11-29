@@ -178,5 +178,51 @@
       "rights": "Todos os direitos reservados",
       "developer": "Desenvolvido por"
     }
+  },
+  "AboutPage": {
+    "Hero": {
+      "title": "Sobre Nós",
+      "subtitle": "Conheça a equipe por trás da sua próxima aventura"
+    },
+    "Intro": {
+      "title": "Sua Agência de Viagens para Tours e Aventuras Inesquecíveis em Cusco",
+      "description": "Na Huaypo Adventure, nosso propósito é simples: transformar sua viagem ao Peru em uma coleção de experiências autênticas e memoráveis. Como sua agência de viagens especialista em Cusco, dedicamo-nos apaixonadamente a revelar a incomparável riqueza cultural e a majestosa beleza natural que esta região oferece."
+    },
+    "Team": {
+      "title": "Nossa Equipe Huaypo Adventure",
+      "guides": {
+        "title": "Nossa equipe de Guias Locais",
+        "desc": "São o coração da Huaypo Adventure. Profissionais especialistas e apaixonados pela história e cultura do Peru. Eles não apenas mostrarão as paisagens, mas compartilharão as histórias e tradições que tornam cada destino único."
+      },
+      "drivers": {
+        "title": "Nossa equipe de Motoristas",
+        "desc": "Por trás de cada aventura de sucesso está o esforço incansável da nossa equipe de transporte. Com um sorriso e disposição admirável, cuidam de toda a logística para que sua viagem seja segura, confortável e agradável."
+      },
+      "cooks": {
+        "title": "Nossa equipe de Cozinheiros Locais",
+        "desc": "A gastronomia é essencial. Com habilidade e criatividade, preparam pratos deliciosos e nutritivos usando ingredientes frescos e locais. Nossos cozinheiros não apenas alimentam seu corpo, mas oferecem um sabor autêntico da nossa terra."
+      }
+    },
+    "Values": {
+      "title": "Nossa Empresa",
+      "mission": {
+        "title": "Nossa Missão",
+        "desc": "Somos uma operadora de turismo que oferece experiências únicas e autênticas no Peru, cumprindo os mais altos padrões de qualidade e responsabilidade social."
+      },
+      "vision": {
+        "title": "Nossa Visão",
+        "desc": "Até 2030, ser uma das empresas de turismo mais competitivas e sustentáveis de Cusco, oferecendo serviços com qualidade e segurança para viajantes de todo o mundo."
+      },
+      "coreTitle": "Nossos Valores",
+      "core": {
+        "honesty": { "title": "Honestidade", "desc": "Promovemos a verdade para gerar confiança." },
+        "security": { "title": "Segurança", "desc": "Garantimos nosso bem-estar e o de nossos clientes." },
+        "respect": { "title": "Respeito", "desc": "Valorizamos os outros, o meio ambiente e nosso patrimônio." },
+        "responsibility": { "title": "Responsabilidade", "desc": "Comprometidos com o desenvolvimento sustentável." }
+      }
+    },
+    "Certifications": {
+      "title": "Somos uma empresa plenamente autorizada"
+    }
   }
 }
