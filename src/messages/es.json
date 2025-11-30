@@ -1,8 +1,4 @@
 {
-  "HomePage": {
-    "title": "Bienvenido a Huaypo Adventure",
-    "subtitle": "Descubre la magia de los Andes"
-  },
   "Navbar": {
     "links": {
       "about": "Quienes Somos",
@@ -21,6 +17,56 @@
       "language": "Español",
       "explore": "Explorar Todos"
     }
+  },
+  "Footer": {
+    "company": {
+      "title": "Compañía",
+      "about": "Sobre Nosotros",
+      "projects": "Proyectos Sociales",
+      "code": "Código ESNNA"
+    },
+    "tours": {
+      "title": "Nuestros Tours",
+      "packages": "Paquetes Perú",
+      "dayTrips": "Day Trips",
+      "machuPicchu": "Machu Picchu",
+      "treks": "Treks Alternativos"
+    },
+    "links": {
+      "title": "Enlaces Útiles",
+      "plan": "Planifica tu aventura",
+      "contact": "Contáctanos",
+      "blog": "Blog",
+      "terms": "Términos y Condiciones",
+      "privacy": "Políticas y Privacidad"
+    },
+    "hours": {
+      "title": "Horarios",
+      "weekdays": "Lunes a Viernes",
+      "weekdaysTime": "7 AM – 8 PM",
+      "saturdays": "Sábados",
+      "saturdaysTime": "7 AM – 8 PM",
+      "address": "Calle Marquez 122 - Of. 112 Cusco - Peru"
+    },
+    "contacts": {
+      "title": "Contactos",
+      "email": "info@huaypoadventure.com",
+      "phone": "+51 935 327 962",
+      "whatsapp": "+51 903 102 547"
+    },
+    "socials": "Nuestras redes sociales",
+    "payments": "Métodos de pago",
+    "complaints": "Libro de reclamaciones",
+    "legal": {
+      "companyName": "Huaypo Adventure, Tour Operator E.I.R.L.",
+      "ruc": "RUC: 20608615106",
+      "rights": "Todos derechos reservados",
+      "developer": "Desarrollado por"
+    }
+  },
+  "HomePage": {
+    "title": "Bienvenido a Huaypo Adventure",
+    "subtitle": "Descubre la magia de los Andes"
   },
   "Hero": {
     "title": "Explore Machu Picchu, Valle Sagrado, Vinicunca, Y Lo Mejor De Perú",
@@ -81,7 +127,6 @@
     }
   },
   "AboutPreview": {
-    "subtitle": "Quiénes Somos",
     "title": "Huaypo Adventure: Somos Exploradores, Para Exploradores",
     "p1": "En Huaypo Adventure, convertimos tus sueños de explorar Perú en aventuras inolvidables. Con una pasión por crear experiencias de viaje extraordinarias, nos especializamos en la elaboración de viajes exclusivos y personalizados para grupos pequeños o privados.",
     "p2": "Sumérgete en la vibrante cultura, impresionantes paisajes y antiguas maravillas del Perú, guiado por nuestro equipo de expertos locales que se dedican a hacer que tu viaje sea único.",
@@ -106,7 +151,7 @@
     "list": [
       {
         "title": "Lindas vistas",
-        "text": "Pontual e solícitos, nos deixaram seguros sempre perguntando nossas necessidades. Fomos a Moray andamos de quadriciclo, visitamos as Salineras de Maras além de uma parada em Chinchero.",
+        "text": "Pontual e solícitos, nos deixaram seguros sempre perguntando nossas necesidades. Fomos a Moray andamos de quadriciclo, visitamos as Salineras de Maras además de una parada em Chinchero.",
         "author": "Francielle Tanamati",
         "date": "Oct 2025"
       },
@@ -133,50 +178,74 @@
   "Partners": {
     "title": "Somos parte de"
   },
-  "Footer": {
-    "company": {
-      "title": "Compañía",
-      "about": "Sobre Nosotros",
-      "projects": "Proyectos Sociales",
-      "code": "Código ESNNA"
+  "ToursPage": {
+    "Hero": {
+      "title": "Descubre Todos Nuestros Tours",
+      "subtitle": "Aventuras en Cusco y Maravillas de Perú"
     },
-    "tours": {
-      "title": "Nuestros Tours",
-      "packages": "Paquetes Perú",
-      "dayTrips": "Day Trips",
-      "machuPicchu": "Machu Picchu",
-      "treks": "Treks Alternativos"
+    "Gallery": {
+      "eyebrow": "La Diferencia Huaypo",
+      "title": "Diseñamos Experiencias, No Solo Itinerarios",
+      "description": "Nos alejamos de lo convencional para conectarte con el alma de los Andes. Desde accesos exclusivos y rutas inexploradas hasta el lujo de la autenticidad local. Tu viaje a Perú merece ser tan único como tu propia historia.",
+      "stat1": "100% Personalizado",
+      "stat2": "Guías de Élite"
     },
-    "links": {
-      "title": "Enlaces Útiles",
-      "plan": "Planifica tu aventura",
-      "contact": "Contáctanos",
-      "blog": "Blog",
-      "terms": "Términos y Condiciones",
-      "privacy": "Políticas y Privacidad"
+    "CategoriesGrid": {
+      "title": "Explora por Estilo de Viaje",
+      "subtitle": "Encuentra la experiencia perfecta para ti en nuestros nichos especializados.",
+      "items": {
+        "inca": "Camino Inca Legendario",
+        "salkantay": "Salkantay Trek",
+        "machu": "Machu Picchu en Tren",
+        "rainbow": "Montaña de Colores",
+        "day": "Cusco Day Tours",
+        "alt": "Caminatas Alternativas",
+        "packages": "Paquetes Perú Completo"
+      }
     },
-    "hours": {
-      "title": "Horarios",
-      "weekdays": "Lunes a Viernes",
-      "weekdaysTime": "7 AM – 8 PM",
-      "saturdays": "Sábados",
-      "saturdaysTime": "7 AM – 8 PM",
-      "address": "Calle Marquez 122 - Of. 112 Cusco - Peru"
+    "Categories": {
+      "inca": "Camino Inca & Machu Picchu",
+      "treks": "Caminatas Alternas",
+      "day": "Tours de un Día",
+      "packages": "Paquetes Perú"
     },
-    "contacts": {
-      "title": "Contactos",
-      "email": "info@huaypoadventure.com",
-      "phone": "+51 935 327 962",
-      "whatsapp": "+51 903 102 547"
+    "CTA": {
+      "title": "¿Buscas una experiencia hecha a tu medida?",
+      "subtitle": "Si ninguno de nuestros itinerarios encaja perfectamente contigo, nuestros expertos locales pueden diseñar la aventura exacta que tienes en mente.",
+      "button": "Diseñar mi viaje gratis"
+    }
+  },
+  "TourDetail": {
+    "Hero": {
+      "from": "Desde",
+      "perPerson": "por persona",
+      "reviews": "reseñas",
+      "bookBtn": "Reservar Ahora",
+      "inquireBtn": "Consultar"
     },
-    "socials": "Nuestras redes sociales",
-    "payments": "Métodos de pago",
-    "complaints": "Libro de reclamaciones",
-    "legal": {
-      "companyName": "Huaypo Adventure, Tour Operator E.I.R.L.",
-      "ruc": "RUC: 20608615106",
-      "rights": "Todos derechos reservados",
-      "developer": "Desarrollado por"
+    "Info": {
+      "duration": "Duración",
+      "difficulty": "Dificultad",
+      "altitude": "Altitud Max",
+      "groupSize": "Grupo",
+      "activity": "Actividad"
+    },
+    "Tabs": {
+      "itinerary": "Itinerario",
+      "inclusions": "Qué Incluye",
+      "packing": "Qué Llevar",
+      "faq": "Preguntas"
+    },
+    "Itinerary": {
+      "day": "Día",
+      "meals": "Comidas:",
+      "accommodation": "Alojamiento:"
+    },
+    "Booking": {
+      "title": "Reserva tu aventura",
+      "subtitle": "Espacios limitados para esta temporada",
+      "total": "Total estimado",
+      "cta": "Solicitar Reserva"
     }
   },
   "AboutPage": {
@@ -188,7 +257,7 @@
       "eyebrow": "Nuestra Esencia",
       "title": "Tu Agencia de Viajes para Tours y Aventuras Inolvidables en Cusco",
       "highlight": "En Huaypo Adventure, nuestra razón de ser es simple:",
-      "description": "En Huaypo Adventure, nuestra razón de ser es simple: transformar tu viaje a Perú en una colección de experiencias auténticas y memorables. Como tu agencia de viajes experta en Cusco, nos dedicamos apasionadamente a revelar la incomparable riqueza cultural y la majestuosa belleza natural que esta región y todo el Perú ofrecen."
+      "description": "transformar tu viaje a Perú en una colección de experiencias auténticas y memorables. Como tu agencia de viajes experta en Cusco, nos dedicamos apasionadamente a revelar la incomparable riqueza cultural y la majestuosa belleza natural que esta región y todo el Perú ofrecen."
     },
     "Team": {
       "title": "Nuestro Equipo Huaypo Adventure",
@@ -227,6 +296,38 @@
       "title": "Somos una empresa plenamente autorizada"
     }
   },
+  "BlogPage": {
+    "Hero": {
+      "title": "Diario de Aventuras",
+      "subtitle": "Historias, guías y secretos de los Andes para el viajero moderno."
+    },
+    "Categories": {
+      "all": "Ver Todo",
+      "culture": "Cultura e Historia",
+      "adventure": "Aventura",
+      "tips": "Consejos de Viaje",
+      "gastronomy": "Gastronomía"
+    },
+    "Featured": {
+      "badge": "Artículo Destacado",
+      "readTime": "Lectura de 8 min"
+    },
+    "Newsletter": {
+      "title": "Únete a nuestra comunidad de viajeros",
+      "subtitle": "Recibe guías exclusivas y descuentos secretos directamente en tu correo.",
+      "placeholder": "Tu correo electrónico",
+      "button": "Suscribirme"
+    }
+  },
+  "BlogPost": {
+    "meta": {
+      "author": "Escrito por",
+      "date": "Publicado el",
+      "readTime": "min de lectura",
+      "share": "Compartir este artículo"
+    },
+    "related": "Más historias de viaje"
+  },
   "PlanPage": {
     "Hero": {
       "title": "Planea tus viajes con nosotros"
@@ -243,14 +344,12 @@
       "email": "Correo Electrónico",
       "phone": "Teléfono / WhatsApp",
       "country": "País de Residencia",
-      
       "tripDetails": "Tu Aventura",
       "dates": "Fechas Tentativas",
       "arrival": "Llegada",
       "departure": "Salida",
       "travelers": "Viajeros",
       "travelersPlaceholder": "N° Personas",
-      
       "interestsTitle": "¿Qué buscas en este viaje?",
       "interests": {
         "culture": "Cultura e Historia",
@@ -260,7 +359,6 @@
         "luxury": "Lujo y Confort",
         "family": "Familiar"
       },
-      
       "budgetTitle": "Presupuesto aproximado por persona (USD)",
       "budget": {
         "economy": "$500 - $1000",
@@ -268,7 +366,6 @@
         "premium": "$2000 - $3500",
         "luxury": "$3500+"
       },
-
       "hotelTitle": "Categoría de Hotel Preferida",
       "messageLabel": "Cuéntanos más (Requerimientos especiales, dudas...)",
       "submit": "Solicitar Propuesta Personalizada",
@@ -411,37 +508,5 @@
         }
       ]
     }
-  },
-  "BlogPage": {
-    "Hero": {
-      "title": "Diario de Aventuras",
-      "subtitle": "Historias, guías y secretos de los Andes para el viajero moderno."
-    },
-    "Categories": {
-      "all": "Ver Todo",
-      "culture": "Cultura e Historia",
-      "adventure": "Aventura",
-      "tips": "Consejos de Viaje",
-      "gastronomy": "Gastronomía"
-    },
-    "Featured": {
-      "badge": "Artículo Destacado",
-      "readTime": "Lectura de 8 min"
-    },
-    "Newsletter": {
-      "title": "Únete a nuestra comunidad de viajeros",
-      "subtitle": "Recibe guías exclusivas y descuentos secretos directamente en tu correo.",
-      "placeholder": "Tu correo electrónico",
-      "button": "Suscribirme"
-    }
-  },
-  "BlogPost": {
-    "meta": {
-      "author": "Escrito por",
-      "date": "Publicado el",
-      "readTime": "min de lectura",
-      "share": "Compartir este artículo"
-    },
-    "related": "Más historias de viaje"
   }
 }
