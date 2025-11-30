@@ -265,32 +265,89 @@
       "from": "Desde",
       "perPerson": "por persona",
       "reviews": "reseñas",
-      "bookBtn": "Reservar Ahora",
-      "inquireBtn": "Consultar"
+      "galleryBtn": "Ver todas las fotos",
+      "videoLabel": "Video Experience"
     },
     "Info": {
       "duration": "Duración",
       "difficulty": "Dificultad",
-      "altitude": "Altitud Max",
+      "altitude": "Altitud Máx",
       "groupSize": "Grupo",
       "activity": "Actividad"
+    },
+    "Overview": {
+      "title": "Sobre esta aventura",
+      "places": "Destinos Clave",
+      "season": "Mejor Temporada",
+      "readMore": "Leer descripción completa",
+      "readLess": "Mostrar menos",
+      "statsTitle": "Perfil de Elevación & Datos",
+      "maxAltitude": "Altitud Máx",
+      "distance": "Distancia Total",
+      "difficulty": "Nivel Técnico"
     },
     "Tabs": {
       "itinerary": "Itinerario",
       "inclusions": "Qué Incluye",
       "packing": "Qué Llevar",
+      "price": "Precios y Tarifas",
       "faq": "Preguntas"
     },
+    "Price": {
+      "groupTitle": "Servicio Grupal",
+      "groupDesc": "Únete a viajeros de todo el mundo. Salidas diarias garantizadas.",
+      "privateTitle": "Servicio Privado",
+      "privateDesc": "Disfruta de una experiencia exclusiva a tu propio ritmo con tu grupo.",
+      "perPerson": "por persona",
+      "pax": "pasajeros",
+      "tableHeader": "Tabla de Tarifas Privadas"
+    },
+    "Inclusions": {
+      "title": "¿Qué incluye?",
+      "included": "Lo que incluimos",
+      "notIncluded": "Lo que no incluimos"
+    },
     "Itinerary": {
+      "title": "Itinerario Día a Día",
+      "expandAll": "Expandir todo",
+      "collapseAll": "Contraer todo",
       "day": "Día",
-      "meals": "Comidas:",
-      "accommodation": "Alojamiento:"
+      "meals": "Alimentación:",
+      "accommodation": "Alojamiento:",
+      "distance": "Distancia:"
+    },
+    "Packing": {
+      "essentials": "Esenciales",
+      "clothing": "Ropa y Calzado",
+      "gear": "Equipo"
+    },
+    "Map": {
+      "title": "Ruta del Viaje"
     },
     "Booking": {
-      "title": "Reserva tu aventura",
-      "subtitle": "Espacios limitados para esta temporada",
-      "total": "Total estimado",
-      "cta": "Solicitar Reserva"
+      "title": "Configura tu viaje",
+      "priceFrom": "Precio desde",
+      "perPerson": "por viajero",
+      "serviceType": "Modalidad",
+      "group": "Servicio Grupal",
+      "private": "Servicio Privado",
+      "dateLabel": "Fecha de inicio",
+      "datePlaceholder": "Seleccionar fecha", 
+      "guestsLabel": "Viajeros",
+      "total": "Precio Final",
+      
+      "bookBtn": "Reservar y Pagar", 
+      "inquireBtn": "Tengo dudas / Personalizar",
+      
+      "guarantee": "Compra 100% Segura • Confirmación Inmediata",
+      
+      "modalTitle": "Habla con un experto",
+      "modalSubtitle": "Resolvemos tus dudas en minutos. Escríbenos para confirmar disponibilidad o adaptar la ruta.",
+      "formName": "Tu Nombre",
+      "formEmail": "Tu Correo",
+      "formPhone": "WhatsApp",
+      "formMessage": "¿Qué dudas tienes?",
+      "formSubmit": "Contactar por WhatsApp"
     }
   },
   "AboutPage": {

@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import Container from "@/components/ui/Container";
-import { Mountain, Users, Activity, CalendarClock } from "lucide-react";
+import { Mountain, Users, Activity, CalendarClock, TrendingUp } from "lucide-react";
 
 interface InfoBarProps {
   difficulty: string;
@@ -15,27 +15,66 @@ export default function TourInfoBar({ difficulty, altitude, groupSize, activityT
   const t = useTranslations("TourDetail.Info");
 
   const items = [
-    { label: t("difficulty"), value: difficulty, icon: Mountain },
-    { label: t("altitude"), value: altitude, icon: Activity },
-    { label: t("groupSize"), value: `Max ${groupSize}`, icon: Users },
-    { label: t("activity"), value: activityType, icon: CalendarClock },
+    { 
+      label: t("difficulty"), 
+      value: difficulty, 
+      icon: TrendingUp,
+      color: "text-brand-orange",
+      bg: "bg-brand-orange/10"
+    },
+    { 
+      label: t("altitude"), 
+      value: altitude, 
+      icon: Mountain, 
+      color: "text-brand-blue",
+      bg: "bg-brand-blue/10"
+    },
+    { 
+      label: t("groupSize"), 
+      value: `Max ${groupSize}`, 
+      icon: Users, 
+      color: "text-brand-green",
+      bg: "bg-brand-green/10"
+    },
+    { 
+      label: t("activity"), 
+      value: activityType, 
+      icon: CalendarClock, 
+      color: "text-brand-yellow",
+      bg: "bg-brand-yellow/10"
+    },
   ];
 
   return (
-    <div className="w-full bg-white border-b border-gray-100 sticky top-[90px] z-30 shadow-sm hidden md:block">
+    // Ajustamos el margen negativo para que "monte" un poco sobre la sección anterior o quede pegado visualmente
+    <div className="relative z-20 w-full -mt-8 pb-12">
       <Container>
-        <div className="grid grid-cols-4 divide-x divide-gray-100 py-6">
-            {items.map((item, index) => (
-                <div key={index} className="flex items-center gap-4 px-4 justify-center first:justify-start">
-                    <div className="w-10 h-10 rounded-full bg-brand-pale flex items-center justify-center text-brand-blue shrink-0">
-                        <item.icon size={20} />
+        
+        {/* TARJETA CÁPSULA PREMIUM */}
+        <div className="bg-white rounded-[2rem] shadow-[0_20px_50px_-12px_rgba(0,0,0,0.1)] border border-gray-100 p-4 md:p-6">
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-0 md:divide-x md:divide-gray-100">
+                {items.map((item, index) => (
+                    <div key={index} className="flex flex-col items-center justify-center p-4 text-center group hover:bg-gray-50/50 rounded-xl transition-colors">
+                        
+                        {/* Icono con Halo de Color */}
+                        <div className={`w-12 h-12 rounded-2xl ${item.bg} flex items-center justify-center ${item.color} mb-3 group-hover:scale-110 transition-transform duration-300`}>
+                            <item.icon size={22} strokeWidth={2} />
+                        </div>
+                        
+                        {/* Textos */}
+                        <div>
+                            <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1">
+                                {item.label}
+                            </p>
+                            <p className="text-sm md:text-base font-extrabold text-brand-dark leading-tight">
+                                {item.value}
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <p className="text-xs text-gray-400 uppercase font-bold tracking-wider mb-0.5">{item.label}</p>
-                        <p className="text-brand-dark font-bold leading-tight">{item.value}</p>
-                    </div>
-                </div>
-            ))}
+                ))}
+            </div>
+
         </div>
       </Container>
     </div>
