@@ -215,6 +215,51 @@
       "button": "Diseñar mi viaje gratis"
     }
   },
+  "CollectionPage": {
+    "Intro": {
+      "title": "Información Esencial",
+      "difficulty": "Dificultad",
+      "season": "Mejor época",
+      "altitude": "Altitud Máx",
+      "permit": "Permisos"
+    },
+    "Expertise": {
+      "title": "Guía Experta del Destino",
+      "subtitle": "Todo lo que necesitas saber antes de reservar tu aventura.",
+      "readMore": "Leer guía completa"
+    },
+    "FAQ": {
+      "title": "Preguntas Frecuentes"
+    },
+    "Insider": {
+      "weatherTitle": "Clima y Temporadas",
+      "weatherSubtitle": "Probabilidad de lluvia vs. Sol",
+      "drySeason": "Seca (Alta)",
+      "wetSeason": "Lluviosa",
+      "difficultyTitle": "Nivel de Exigencia",
+      "difficultySubtitle": "¿Estás listo para el reto?",
+      "packingTitle": "Indispensables en tu mochila",
+      "whyTitle": "¿Por qué elegir esta ruta?",
+      "months": ["ENE", "FEB", "MAR", "ABR", "MAY", "JUN", "JUL", "AGO", "SEP", "OCT", "NOV", "DIC"]
+    },
+    "Availability": {
+      "title": "Disponibilidad Oficial Camino Inca 2026",
+      "subtitle": "Los permisos se agotan con meses de antelación. Revisa el estado actual por mes.",
+      "status": {
+        "high": "Disponible",
+        "medium": "Últimos Espacios",
+        "low": "Crítico",
+        "sold": "Agotado",
+        "closed": "Cerrado (Mantenimiento)"
+      },
+      "cta": "Consultar fecha exacta vía WhatsApp",
+      "modal": {
+        "close": "Cerrar",
+        "legend": "Estado por día:",
+        "days": ["D", "L", "M", "M", "J", "V", "S"]
+      }
+    }
+  },
   "TourDetail": {
     "Hero": {
       "from": "Desde",
