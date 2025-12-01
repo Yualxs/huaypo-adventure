@@ -1,4 +1,4 @@
-import CollectionHero from "@/components/ui/CollectionHero";
+import CollectionHero from "@/components/tours/CollectionHero";
 import CollectionInsider from "@/components/collections/CollectionInsider"; // <--- NUEVO
 import TourGrid from "@/components/collections/TourGrid";
 import ExpertTips from "@/components/collections/ExpertTips";

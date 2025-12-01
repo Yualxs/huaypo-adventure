@@ -22,15 +22,18 @@
     "company": {
       "title": "Compañía",
       "about": "Sobre Nosotros",
-      "projects": "Proyectos Sociales",
+      "partners": "Socios Estratégicos",
       "code": "Código ESNNA"
     },
-    "tours": {
-      "title": "Nuestros Tours",
-      "packages": "Paquetes Perú",
-      "dayTrips": "Day Trips",
-      "machuPicchu": "Machu Picchu",
-      "treks": "Treks Alternativos"
+    "collections": {
+      "title": "Colecciones",
+      "inca": "Camino Inca",
+      "salkantay": "Salkantay Trek",
+      "machu": "Machu Picchu",
+      "rainbow": "Montaña de Colores",
+      "day": "Cusco Day Tours",
+      "alt": "Caminatas Alternas",
+      "packages": "Paquetes Perú"
     },
     "links": {
       "title": "Enlaces Útiles",
@@ -127,6 +130,7 @@
     }
   },
   "AboutPreview": {
+    "subtitle": "Quiénes Somos",
     "title": "Huaypo Adventure: Somos Exploradores, Para Exploradores",
     "p1": "En Huaypo Adventure, convertimos tus sueños de explorar Perú en aventuras inolvidables. Con una pasión por crear experiencias de viaje extraordinarias, nos especializamos en la elaboración de viajes exclusivos y personalizados para grupos pequeños o privados.",
     "p2": "Sumérgete en la vibrante cultura, impresionantes paisajes y antiguas maravillas del Perú, guiado por nuestro equipo de expertos locales que se dedican a hacer que tu viaje sea único.",
@@ -609,6 +613,132 @@
           "content": "<ul class='list-disc pl-5 space-y-2'><li>Antes de 30 días: 15% de penalidad (gastos administrativos).</li><li>Entre 10 y 30 días: 20% de penalidad.</li><li>Entre 2 y 9 días: 50% de penalidad.</li></ul><br><strong>Para Camino Inca (Estricto):</strong><br><ul class='list-disc pl-5 space-y-2 mt-2'><li>Antes de 30 días: 50% penalidad.</li><li>15-30 días: 70% penalidad.</li><li>Menos de 15 días: 100% penalidad.</li></ul>"
         }
       ]
+    }
+  },
+  "BookingWizard": {
+    "title": "Reserva tu Aventura",
+    "steps": {
+      "journey": "Tu Viaje",
+      "travelers": "Viajeros",
+      "payment": "Pago"
+    },
+    "Step1": {
+      "title": "Configura tu Viaje",
+      "subtitle": "Selecciona la experiencia y la fecha de inicio.",
+      "tourLabel": "Elige tu tour",
+      "selectTour": "Selecciona una experiencia...",
+      "dateLabel": "Fecha de inicio",
+      "travelersLabel": "Número de viajeros",
+      "pax": "Personas",
+      "serviceLabel": "Tipo de Servicio",
+      "groupOption": "Servicio Grupal",
+      "privateOption": "Servicio Privado",
+      "nextBtn": "Siguiente Paso"
+    },
+    "Step2": {
+      "title": "Datos de los Pasajeros",
+      "subtitle": "Necesitamos los datos exactos para los permisos.",
+      "travelerTitle": "Viajero",
+      "firstName": "Nombres",
+      "lastName": "Apellidos",
+      "gender": "Género",
+      "country": "País",
+      "docNumber": "Número de Documento",
+      "birthDate": "Fecha de Nacimiento",
+      "pocTitle": "Contacto Principal",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono / WhatsApp",
+      "backBtn": "Atrás",
+      "nextBtn": "Continuar al Pago"
+    },
+    "Step3": {
+      "title": "Confirmación y Pago",
+      "subtitle": "Elige cómo quieres pagar tu aventura.",
+      "backBtn": "Volver a datos"
+    }
+  },
+  "ThankYouPage": {
+    "title": "¡Reserva Exitosa",
+    "subtitle": "Tu aventura en los Andes está confirmada. Hemos generado tu código de reserva:",
+    "details": {
+      "tour": "Experiencia",
+      "date": "Fecha de Inicio",
+      "status": "Estado",
+      "confirmed": "Pago Confirmado"
+    },
+    "nextSteps": {
+      "title": "¿Qué sigue ahora?"
+    },
+    "social": {
+      "text": "Únete a nuestra comunidad de viajeros en Instagram"
+    },
+    "backHome": "Volver al Inicio"
+  },
+  "PartnersPage": {
+    "Hero": {
+      "title": "Socios Estratégicos",
+      "subtitle": "Operamos tus sueños"
+    },
+    "Segments": {
+      "title": "Soluciones a Tu Medida",
+      "subtitle": "Diseñamos nuestra operación según el perfil de tu agencia.",
+      "intl": {
+        "title": "Agencias Internacionales",
+        "desc": "Tu DMC de confianza en Perú. Operamos todo el destino con estándares globales."
+      },
+      "local": {
+        "title": "Agencias Peruanas",
+        "desc": "Maximiza tu rentabilidad en las rutas de alta rotación."
+      }
+    },
+    "Features": {
+      "title": "Operación Invisible, Calidad Visible",
+      "description": "Tu cliente es TUYO. Nosotros somos el motor silencioso que garantiza la excelencia en cada paso, permitiéndote escalar sin preocupaciones operativas.",
+      "f1": { "title": "100% Marca Blanca", "desc": "Sin logos de Huaypo. Tus clientes verán tu marca." },
+      "f2": { "title": "Flota Moderna", "desc": "Sprinters y buses equipados con aire acondicionado y GPS." },
+      "f3": { "title": "Guías Embajadores", "desc": "Entrenados para representar a tu agencia con profesionalismo." },
+      "f4": { "title": "Empresa Formal", "desc": "Facturación, seguros y permisos al día." }
+    },
+    "Form": {
+      "title": "Conviértete en Partner",
+      "subtitle": "Completa el formulario y recibe nuestro tarifario confidencial 2025.",
+      "agencyName": "Nombre de la Agencia",
+      "website": "Sitio Web",
+      "email": "Correo Corporativo",
+      "phone": "Teléfono / WhatsApp",
+      "originSelect": "Tipo de Agencia",
+      "volumeSelect": "Volumen Mensual Estimado",
+      "submit": "Solicitar Tarifario"
+    }
+  },
+  "ComplaintsPage": {
+    "Hero": {
+      "title": "Libro de Reclamaciones",
+      "subtitle": "Estamos aquí para escucharte y mejorar continuamente."
+    },
+    "Form": {
+      "sections": {
+        "consumer": "1. Identificación del Consumidor Reclamante",
+        "good": "2. Identificación del Bien Contratado",
+        "detail": "3. Detalle de la Reclamación"
+      },
+      "labels": {
+        "name": "Nombres",
+        "lastname": "Apellidos",
+        "docNumber": "Nro. Documento (DNI/CE/Pasaporte)",
+        "phone": "Teléfono / Celular",
+        "email": "Correo Electrónico",
+        "address": "Domicilio",
+        "amount": "Monto Reclamado (S/)",
+        "description": "Descripción del Bien o Servicio",
+        "detailDesc": "Detalle del Reclamo o Queja",
+        "request": "Pedido / Solicitud Concreta"
+      },
+      "submit": "Enviar Hoja de Reclamación",
+      "success": {
+        "title": "Hoja de Reclamación Enviada",
+        "subtitle": "Hemos registrado tu caso correctamente. Nuestro equipo de calidad lo revisará a la brevedad."
+      }
     }
   }
 }

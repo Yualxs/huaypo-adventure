@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import CollectionHero from "@/components/ui/CollectionHero"; // <--- AHORA SÍ: Hero Premium
+import CollectionHero from "@/components/tours/CollectionHero"; // <--- AHORA SÍ: Hero Premium
 import TourGallery from "@/components/tours/TourGallery";
 import CategoriesGrid from "@/components/tours/CategoriesGrid";
 import PopularTours from "@/components/home/PopularTours";

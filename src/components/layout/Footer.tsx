@@ -13,9 +13,7 @@ export default function Footer() {
   return (
     <footer className="relative bg-[#05060d] text-white pt-20 pb-10 overflow-hidden">
       
-      {/* --- EFECTO DE LUZ SUPERIOR (Toque Innovador) --- 
-          Crea una línea de luz degradada en el borde superior
-      */}
+      {/* Efecto de luz superior */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-brand-blue/50 to-transparent"></div>
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-20 bg-brand-blue/5 blur-[100px] rounded-full pointer-events-none"></div>
 
@@ -24,28 +22,31 @@ export default function Footer() {
         {/* --- FILA 1: ENLACES Y CONTACTO --- */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 mb-16 relative z-10">
           
-          {/* Columna 1: Compañía */}
+          {/* Columna 1: Compañía (Actualizada) */}
           <div className="flex flex-col gap-6">
             <h6 className="text-small md:text-p font-bold text-brand-blue uppercase tracking-[0.2em]">
               {t("company.title")}
             </h6>
             <ul className="space-y-3">
               <FooterLink href="/about">{t("company.about")}</FooterLink>
-              <FooterLink href="#">{t("company.projects")}</FooterLink>
+              <FooterLink href="/partners">{t("company.partners")}</FooterLink> {/* Nuevo Link Partners */}
               <FooterLink href="/code-esnna">{t("company.code")}</FooterLink>
             </ul>
           </div>
 
-          {/* Columna 2: Nuestros Tours */}
+          {/* Columna 2: Colecciones (Las 7 Categorías SEO) */}
           <div className="flex flex-col gap-6">
             <h6 className="text-small md:text-p font-bold text-brand-blue uppercase tracking-[0.2em]">
-              {t("tours.title")}
+              {t("collections.title")}
             </h6>
             <ul className="space-y-3">
-              <FooterLink href="/tours">{t("tours.packages")}</FooterLink>
-              <FooterLink href="/tours">{t("tours.dayTrips")}</FooterLink>
-              <FooterLink href="/tours">{t("tours.machuPicchu")}</FooterLink>
-              <FooterLink href="/tours">{t("tours.treks")}</FooterLink>
+              <FooterLink href="/collections/camino-inca">{t("collections.inca")}</FooterLink>
+              <FooterLink href="/collections/salkantay-trek">{t("collections.salkantay")}</FooterLink>
+              <FooterLink href="/collections/machu-picchu-tours">{t("collections.machu")}</FooterLink>
+              <FooterLink href="/collections/montana-de-colores">{t("collections.rainbow")}</FooterLink>
+              <FooterLink href="/collections/cusco-day-tours">{t("collections.day")}</FooterLink>
+              <FooterLink href="/collections/caminatas-alternativas">{t("collections.alt")}</FooterLink>
+              <FooterLink href="/collections/paquetes-peru">{t("collections.packages")}</FooterLink>
             </ul>
           </div>
 
@@ -105,7 +106,6 @@ export default function Footer() {
               <li>
                 <a href="https://wa.me/+51903102547" target="_blank" className="flex items-center gap-3 text-gray-300 hover:text-[#28a61b] transition-colors group">
                   <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[#28a61b]/10 transition-colors">
-                     {/* Icono Whatsapp SVG */}
                      <div className="w-4 h-4 fill-current"><SimpleIcon name="whatsapp" /></div>
                   </div>
                   <span className="font-medium tracking-wide">+51 903 102 547</span>
@@ -115,13 +115,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Separador Sutil */}
         <div className="w-full h-px bg-white/5 mb-10"></div>
 
-        {/* --- FILA 2: BRANDING Y MÉTODOS DE PAGO --- */}
+        {/* --- FILA 2: BRANDING Y PAGOS --- */}
         <div className="flex flex-col lg:flex-row justify-between items-center gap-8 mb-10 relative z-10">
-          
-          {/* Logo Footer */}
           <div className="flex flex-col md:flex-row items-center gap-8">
             <Link href="/" className="opacity-80 hover:opacity-100 transition-opacity">
               <img
@@ -130,8 +127,6 @@ export default function Footer() {
                 className="h-10 w-auto"
               />
             </Link>
-            
-            {/* Redes Sociales - Estilo Glassmorphism */}
             <div className="flex gap-2">
                <SocialIcon href="#" icon="tiktok" />
                <SocialIcon href="#" icon="facebook" />
@@ -139,10 +134,8 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Métodos de Pago & Reclamaciones */}
           <div className="flex flex-col md:flex-row items-center gap-6">
             <div className="flex gap-2 p-2 bg-white/5 rounded-lg backdrop-blur-sm border border-white/5">
-                {/* Iconos Grayscale que se colorean al hover del grupo */}
                 <div className="flex gap-2 opacity-50 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0">
                     <PaymentIcon src="https://cdn.prod.website-files.com/67fc0e4b369534d2c5f2e0c3/68e7f9b28f986c4c602c725b_paypal.svg" alt="Paypal" />
                     <PaymentIcon src="https://cdn.prod.website-files.com/67fc0e4b369534d2c5f2e0c3/68e7f9b28f986c4c602c7259_visa.svg" alt="Visa" />
@@ -150,8 +143,7 @@ export default function Footer() {
                     <PaymentIcon src="https://cdn.prod.website-files.com/67fc0e4b369534d2c5f2e0c3/68e7f9b28f986c4c602c725c_mastercard.svg" alt="Mastercard" />
                 </div>
             </div>
-
-            <Link href="#" className="flex items-center gap-3 group px-4 py-2 rounded-lg hover:bg-white/5 transition-all">
+            <Link href="/complaints-book" className="flex items-center gap-3 group px-4 py-2 rounded-lg hover:bg-white/5 transition-all">
                 <Image 
                     src="https://cdn.prod.website-files.com/67fc0e4b369534d2c5f2e0c3/68e7f880ce9d90a2a1e5e228_complaints-book.avif"
                     alt="Libro de Reclamaciones"
@@ -173,7 +165,6 @@ export default function Footer() {
                 <span>{t("legal.ruc")}</span>
                 <span>© {currentYear} {t("legal.rights")}</span>
             </div>
-            
             <div className="flex items-center gap-1">
                 <span>{t("legal.developer")}</span>
                 <a href="https://www.andevo.io/" target="_blank" className="text-brand-yellow/80 hover:text-brand-yellow font-bold transition-colors">
@@ -187,8 +178,7 @@ export default function Footer() {
   );
 }
 
-// --- SUBCOMPONENTES ---
-
+// Subcomponentes auxiliares (No cambian)
 function FooterLink({ href, children }: { href: string, children: React.ReactNode }) {
     return (
         <li>
@@ -224,7 +214,6 @@ function PaymentIcon({ src, alt }: { src: string, alt: string }) {
 }
 
 function SimpleIcon({ name }: { name: string }) {
-    // Usamos SVG Paths para asegurar que 'fill-current' funcione y podamos cambiar colores
     if (name === 'tiktok') return <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02c.08 1.53.63 3.09 1.75 4.17c1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97c-.57-.26-1.1-.59-1.62-.93c-.01 2.92.01 5.84-.02 8.75c-.08 1.4-.54 2.79-1.35 3.94c-1.31 1.92-3.58 3.17-5.91 3.21c-1.43.08-2.86-.31-4.08-1.03c-2.02-1.19-3.44-3.37-3.65-5.71c-.02-.5-.03-1-.01-1.49c.18-1.9 1.12-3.72 2.58-4.96c1.66-1.44 3.98-2.13 6.15-1.72c.02 1.48-.04 2.96-.04 4.44c-.99-.32-2.15-.23-3.02.37c-.63.41-1.11 1.04-1.36 1.75c-.21.51-.15 1.07-.14 1.61c.24 1.64 1.82 3.02 3.5 2.87c1.12-.01 2.19-.66 2.77-1.61c.19-.33.4-.67.41-1.06c.1-1.79.06-3.57.07-5.36c.01-4.03-.01-8.05.02-12.07"/></svg>;
     if (name === 'facebook') return <svg viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978c.401 0 .955.042 1.468.103a9 9 0 0 1 1.141.195v3.325a9 9 0 0 0-.653-.036a27 27 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.7 1.7 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103l-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647"/></svg>;
     if (name === 'instagram') return <svg viewBox="0 0 24 24"><path d="M7.03.084c-1.277.06-2.149.264-2.91.563a5.9 5.9 0 0 0-2.124 1.388a5.9 5.9 0 0 0-1.38 2.127C.321 4.926.12 5.8.064 7.076s-.069 1.688-.063 4.947s.021 3.667.083 4.947c.061 1.277.264 2.149.563 2.911c.308.789.72 1.457 1.388 2.123a5.9 5.9 0 0 0 2.129 1.38c.763.295 1.636.496 2.913.552c1.278.056 1.689.069 4.947.063s3.668-.021 4.947-.082c1.28-.06 2.147-.265 2.91-.563a5.9 5.9 0 0 0 2.123-1.388a5.9 5.9 0 0 0 1.38-2.129c.295-.763.496-1.636.551-2.912c.056-1.28.07-1.69.063-4.948c-.006-3.258-.02-3.667-.081-4.947c-.06-1.28-.264-2.148-.564-2.911a5.9 5.9 0 0 0-1.387-2.123a5.9 5.9 0 0 0-2.128-1.38c-.764-.294-1.636-.496-2.914-.55C15.647.009 15.236-.006 11.977 0S8.31.021 7.03.084m.14 21.693c-1.17-.05-1.805-.245-2.228-.408a3.7 3.7 0 0 1-1.382-.895a3.7 3.7 0 0 1-.9-1.378c-.165-.423-.363-1.058-.417-2.228c-.06-1.264-.072-1.644-.08-4.848c-.006-3.204.006-3.583.061-4.848c.05-1.169.246-1.805.408-2.228c.216-.561.477-.96.895-1.382a3.7 3.7 0 0 1 1.379-.9c.423-.165 1.057-.361 2.227-.417c1.265-.06 1.644-.072 4.848-.08c3.203-.006 3.583.006 4.85.062c1.168.05 1.804.244 2.227.408c.56.216.96.475 1.382.895s.681.817.9 1.378c.165.422.362 1.056.417 2.227c.06 1.265.074 1.645.08 4.848c.005 3.203-.006 3.583-.061 4.848c-.051 1.17-.245 1.805-.408 2.23c-.216.56-.477.96-.896 1.38a3.7 3.7 0 0 1-1.378.9c-.422.165-1.058.362-2.226.418c-1.266.06-1.645.072-4.85.079s-3.582-.006-4.848-.06m9.783-16.192a1.44 1.44 0 1 0 1.437-1.442a1.44 1.44 0 0 0-1.437 1.442M5.839 12.012a6.161 6.161 0 1 0 12.323-.024a6.162 6.162 0 0 0-12.323.024M8 12.008A4 4 0 1 1 12.008 16A4 4 0 0 1 8 12.008"/></svg>;

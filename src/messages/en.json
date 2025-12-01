@@ -1,8 +1,4 @@
 {
-  "HomePage": {
-    "title": "Welcome to Huaypo Adventure",
-    "subtitle": "Discover the magic of the Andes"
-  },
   "Navbar": {
     "links": {
       "about": "About Us",
@@ -22,42 +18,95 @@
       "explore": "Explore All"
     }
   },
+  "Footer": {
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "partners": "Strategic Partners",
+      "code": "ESNNA Code"
+    },
+    "collections": {
+      "title": "Collections",
+      "inca": "Inca Trail",
+      "salkantay": "Salkantay Trek",
+      "machu": "Machu Picchu",
+      "rainbow": "Rainbow Mountain",
+      "day": "Cusco Day Tours",
+      "alt": "Alternative Treks",
+      "packages": "Peru Packages"
+    },
+    "links": {
+      "title": "Useful Links",
+      "plan": "Plan your adventure",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy Policy"
+    },
+    "hours": {
+      "title": "Office Hours",
+      "weekdays": "Monday to Friday",
+      "weekdaysTime": "7 AM – 8 PM",
+      "saturdays": "Saturdays",
+      "saturdaysTime": "7 AM – 8 PM",
+      "address": "Calle Marquez 122 - Of. 112 Cusco - Peru"
+    },
+    "contacts": {
+      "title": "Contact Us",
+      "email": "info@huaypoadventure.com",
+      "phone": "+51 935 327 962",
+      "whatsapp": "+51 903 102 547"
+    },
+    "socials": "Follow us",
+    "payments": "Payment methods",
+    "complaints": "Complaints Book",
+    "legal": {
+      "companyName": "Huaypo Adventure, Tour Operator E.I.R.L.",
+      "ruc": "RUC: 20608615106",
+      "rights": "All rights reserved",
+      "developer": "Developed by"
+    }
+  },
+  "HomePage": {
+    "title": "Welcome to Huaypo Adventure",
+    "subtitle": "Discover the magic of the Andes"
+  },
   "Hero": {
-    "title": "Explore Machu Picchu, Sacred Valley, Vinicunca, And The Best Of Peru",
-    "subtitle": "Travel in small groups and enjoy personalized tours!",
+    "title": "Explore Machu Picchu, Sacred Valley, Rainbow Mountain, and the Best of Peru",
+    "subtitle": "Travel in small groups and enjoy personalized tours crafted just for you!",
     "ctaTours": "View Machu Picchu Tours",
     "ctaContact": "Inquire Now"
   },
   "Intro": {
     "title": "Travel with confidence throughout Peru in <highlight>small groups</highlight> with <highlight>Huaypo Adventure</highlight>",
-    "description": "At Huaypo Adventure we believe that traveling goes beyond visiting places - it is feeling, learning and connecting. We are a passionate team from Cusco guiding you through authentic experiences: from the magical sunrise at Machu Picchu to the vibrant colors of Rainbow Mountain, to meeting Andean communities on our experiential tours. What sets us apart is how we do it - with heart, taking care of every detail so that your adventure is unique and meaningful. We know these paths as only locals can, and we want to share them with you just as we would welcome a friend to our land. Ready to experience the real Peru? We await you with open arms and the best routes to discover."
+    "description": "At Huaypo Adventure, we believe travel goes beyond sightseeing—it's about feeling, learning, and connecting. We are a passionate team based in Cusco, dedicated to guiding you through authentic experiences: from the magical sunrise at Machu Picchu to the vibrant hues of Rainbow Mountain, and meaningful encounters with Andean communities. What sets us apart is *how* we do it—with heart, meticulously caring for every detail to ensure your adventure is unique. We know these paths as only locals can, and we want to share them with you as we would with a friend visiting our home. Ready to experience the real Peru? We welcome you with open arms and the best routes to discover."
   },
   "WhyUs": {
     "title": "WHY TRAVEL WITH HUAYPO ADVENTURE?",
     "cards": {
       "local": {
-        "title": "Local Company",
-        "description": "100% Peruvian offering you authentic experiences full of passion."
+        "title": "100% Local Company",
+        "description": "Proudly Peruvian, offering you authentic experiences driven by passion."
       },
       "quality": {
         "title": "Guaranteed Quality",
-        "description": "With the highest standards. Live a safe and unforgettable adventure in Cusco!"
+        "description": "Highest standards for a safe and unforgettable adventure in Cusco!"
       },
       "groups": {
         "title": "Small Groups",
-        "description": "With a maximum of 12 people for a personalized and authentic experience."
+        "description": "Max 12 people per group for a personalized and intimate experience."
       },
       "sustainable": {
         "title": "Sustainable Travel",
-        "description": "We respect the environment and support local communities."
+        "description": "We respect the environment and actively support local communities."
       },
       "impact": {
         "title": "Positive Impact",
-        "description": "We support the development of Andean communities."
+        "description": "We contribute to the development and well-being of Andean families."
       },
       "guides": {
-        "title": "Local Guides",
-        "description": "Who will show you the authentic magic of the Andes. Join us!"
+        "title": "Expert Local Guides",
+        "description": "Professionals who will reveal the true magic of the Andes. Join us!"
       }
     }
   },
@@ -83,36 +132,36 @@
   "AboutPreview": {
     "subtitle": "Who We Are",
     "title": "Huaypo Adventure: We Are Explorers, For Explorers",
-    "p1": "At Huaypo Adventure, we turn your dreams of exploring Peru into unforgettable adventures. With a passion for creating extraordinary travel experiences, we specialize in crafting exclusive and personalized trips for small groups or private parties.",
-    "p2": "Immerse yourself in the vibrant culture, stunning landscapes, and ancient wonders of Peru, guided by our team of local experts dedicated to making your trip unique.",
+    "p1": "At Huaypo Adventure, we turn your dreams of exploring Peru into unforgettable memories. Driven by a passion for creating extraordinary travel experiences, we specialize in crafting exclusive trips for small groups and private parties.",
+    "p2": "Immerse yourself in Peru's vibrant culture, breathtaking landscapes, and ancient wonders, guided by our team of local experts dedicated to making your journey unique.",
     "button": "About Us"
   },
   "BlogPreview": {
-    "title": "OUR BLOG, ARTICLES AND TIPS",
+    "title": "OUR BLOG, ARTICLES & TIPS",
     "viewAll": "View all articles",
     "card": {
       "readMore": "Read Article",
-      "min": "min"
+      "min": "min read"
     }
   },
   "CustomTours": {
     "title": "CUSTOM TAILOR-MADE TOURS & PACKAGES",
-    "p1": "Imagine staying in a treehouse deep in the Amazon or feeding alpacas from your balcony jacuzzi with the Andes as a backdrop. At Huaypo Adventure, all our tours are completely customizable, so you can design your dream trip to Peru from scratch.",
-    "p2": "From unique experiences off the tourist track to carefully selected accommodations, transfers, and flights, we take care of every detail. Contact us today to start planning your unique trip!",
+    "p1": "Imagine staying in a treehouse deep in the Amazon or feeding alpacas from your balcony jacuzzi with the Andes as a backdrop. At Huaypo Adventure, all our tours are fully customizable so you can design your dream Peru trip from scratch.",
+    "p2": "From unique off-the-beaten-path experiences to carefully selected accommodations, transfers, and flights, we handle every detail. Contact us today to start planning your unique journey!",
     "button": "Learn more"
   },
   "Reviews": {
-    "title": "Our travelers know us",
+    "title": "Our travelers love us",
     "list": [
       {
         "title": "Beautiful views",
-        "text": "Punctual and helpful, they made us feel safe always asking about our needs. We went to Moray on ATVs, visited the Maras Salt Mines as well as a stop in Chinchero.",
+        "text": "Punctual and helpful, they made us feel safe always asking about our needs. We went to Moray on ATVs, visited the Maras Salt Mines, and stopped in Chinchero.",
         "author": "Francielle Tanamati",
         "date": "Oct 2025"
       },
       {
         "title": "Incredible experience",
-        "text": "Beautiful experience, super friendly treatment, at all times they provided us with necessary information and doing paddleboarding in the lagoon was extraordinary, thanks to Carlos and Juvenal.",
+        "text": "Beautiful experience, super friendly treatment. They provided necessary information at all times, and paddleboarding in the lagoon was extraordinary. Thanks to Carlos and Juvenal.",
         "author": "Kelia L",
         "date": "Oct 2025"
       },
@@ -124,7 +173,7 @@
       },
       {
         "title": "The best experience",
-        "text": "Carlos provided excellent service without hesitation, they attended to us very well and at all times not only do they guide you, they help you take the best photos for memories.",
+        "text": "Carlos provided excellent service without hesitation. They attended to us very well, and at all times, not only did they guide us, but they also helped take the best photos for memories.",
         "author": "Adriana C",
         "date": "Oct 2025"
       }
@@ -133,50 +182,173 @@
   "Partners": {
     "title": "We are part of"
   },
-  "Footer": {
-    "company": {
-      "title": "Company",
-      "about": "About Us",
-      "projects": "Social Projects",
-      "code": "ESNNA Code"
+  "ToursPage": {
+    "Hero": {
+      "title": "Discover All Our Tours",
+      "subtitle": "Adventures in Cusco and Wonders of Peru"
     },
-    "tours": {
-      "title": "Our Tours",
-      "packages": "Peru Packages",
-      "dayTrips": "Day Trips",
-      "machuPicchu": "Machu Picchu",
-      "treks": "Alternative Treks"
+    "Gallery": {
+      "eyebrow": "The Huaypo Difference",
+      "title": "We Design Experiences, Not Just Itineraries",
+      "description": "We step away from the conventional to connect you with the soul of the Andes. From exclusive access and unexplored routes to the luxury of local authenticity. Your trip to Peru deserves to be as unique as your own story.",
+      "stat1": "100% Personalized",
+      "stat2": "Elite Guides"
     },
-    "links": {
-      "title": "Useful Links",
-      "plan": "Plan your adventure",
-      "contact": "Contact Us",
-      "blog": "Blog",
-      "terms": "Terms and Conditions",
-      "privacy": "Privacy Policy"
+    "CategoriesGrid": {
+      "title": "Explore by Travel Style",
+      "subtitle": "Find the perfect experience for you in our specialized niches.",
+      "items": {
+        "inca": "Legendary Inca Trail",
+        "salkantay": "Salkantay Trek",
+        "machu": "Machu Picchu by Train",
+        "rainbow": "Rainbow Mountain",
+        "day": "Cusco Day Tours",
+        "alt": "Alternative Treks",
+        "packages": "Complete Peru Packages"
+      }
     },
-    "hours": {
-      "title": "Office Hours",
-      "weekdays": "Monday to Friday",
-      "weekdaysTime": "7 AM – 8 PM",
-      "saturdays": "Saturdays",
-      "saturdaysTime": "7 AM – 8 PM",
-      "address": "Calle Marquez 122 - Of. 112 Cusco - Peru"
+    "Categories": {
+      "inca": "Inca Trail & Machu Picchu",
+      "treks": "Alternative Treks",
+      "day": "Day Tours",
+      "packages": "Peru Packages"
     },
-    "contacts": {
-      "title": "Our Contacts",
-      "email": "info@huaypoadventure.com",
-      "phone": "+51 935 327 962",
-      "whatsapp": "+51 903 102 547"
+    "CTA": {
+      "title": "Looking for a custom-made experience?",
+      "subtitle": "If none of our itineraries fit you perfectly, our local experts can design the exact adventure you have in mind.",
+      "button": "Design my trip for free"
+    }
+  },
+  "CollectionPage": {
+    "Intro": {
+      "title": "Essential Information",
+      "difficulty": "Difficulty",
+      "season": "Best Season",
+      "altitude": "Max Altitude",
+      "permit": "Permits"
     },
-    "socials": "Our social networks",
-    "payments": "Payment methods",
-    "complaints": "Complaints book",
-    "legal": {
-      "companyName": "Huaypo Adventure, Tour Operator E.I.R.L.",
-      "ruc": "RUC: 20608615106",
-      "rights": "All rights reserved",
-      "developer": "Developed by"
+    "Expertise": {
+      "title": "Expert Destination Guide",
+      "subtitle": "Everything you need to know before booking your adventure.",
+      "readMore": "Read full guide"
+    },
+    "FAQ": {
+      "title": "Frequently Asked Questions"
+    },
+    "Insider": {
+      "weatherTitle": "Weather & Seasons",
+      "weatherSubtitle": "Chance of Rain vs. Sun",
+      "drySeason": "Dry (High Season)",
+      "wetSeason": "Rainy",
+      "difficultyTitle": "Difficulty Level",
+      "difficultySubtitle": "Are you ready for the challenge?",
+      "packingTitle": "Backpack Essentials",
+      "whyTitle": "Why choose this route?",
+      "months": ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
+    },
+    "Availability": {
+      "title": "Official Inca Trail Availability 2026",
+      "subtitle": "Permits sell out months in advance. Check current status by month.",
+      "status": {
+        "high": "Available",
+        "medium": "Last Spots",
+        "low": "Critical",
+        "sold": "Sold Out",
+        "closed": "Closed (Maintenance)"
+      },
+      "cta": "Check exact dates via WhatsApp",
+      "modal": {
+        "close": "Close",
+        "legend": "Status by day:",
+        "days": ["S", "M", "T", "W", "T", "F", "S"]
+      }
+    }
+  },
+  "TourDetail": {
+    "Hero": {
+      "from": "From",
+      "perPerson": "per person",
+      "reviews": "reviews",
+      "galleryBtn": "View all photos",
+      "videoLabel": "Video Experience"
+    },
+    "Info": {
+      "duration": "Duration",
+      "difficulty": "Difficulty",
+      "altitude": "Max Altitude",
+      "groupSize": "Group Size",
+      "activity": "Activity"
+    },
+    "Overview": {
+      "title": "About this adventure",
+      "places": "Key Destinations",
+      "season": "Best Season",
+      "readMore": "Read full description",
+      "readLess": "Show less",
+      "statsTitle": "Elevation Profile & Stats",
+      "maxAltitude": "Max Altitude",
+      "distance": "Total Distance",
+      "difficulty": "Technical Level"
+    },
+    "Tabs": {
+      "itinerary": "Itinerary",
+      "inclusions": "Inclusions",
+      "packing": "Packing List",
+      "price": "Prices & Rates",
+      "faq": "FAQ"
+    },
+    "Price": {
+      "groupTitle": "Group Service",
+      "groupDesc": "Join travelers from around the world. Guaranteed daily departures.",
+      "privateTitle": "Private Service",
+      "privateDesc": "Enjoy an exclusive experience at your own pace with your group.",
+      "perPerson": "per person",
+      "pax": "passengers",
+      "tableHeader": "Private Rates Table"
+    },
+    "Inclusions": {
+      "title": "What's included?",
+      "included": "Included",
+      "notIncluded": "Not Included"
+    },
+    "Itinerary": {
+      "title": "Day by Day Itinerary",
+      "expandAll": "Expand all",
+      "collapseAll": "Collapse all",
+      "day": "Day",
+      "meals": "Meals:",
+      "accommodation": "Accommodation:",
+      "distance": "Distance:"
+    },
+    "Packing": {
+      "essentials": "Essentials",
+      "clothing": "Clothing & Footwear",
+      "gear": "Gear"
+    },
+    "Map": {
+      "title": "Trip Route"
+    },
+    "Booking": {
+      "title": "Configure your trip",
+      "priceFrom": "Price from",
+      "perPerson": "per traveler",
+      "serviceType": "Service Mode",
+      "group": "Group Service",
+      "private": "Private Service",
+      "dateLabel": "Start Date",
+      "datePlaceholder": "Select date",
+      "guestsLabel": "Travelers",
+      "total": "Final Price",
+      "bookBtn": "Book & Pay",
+      "inquireBtn": "I have questions / Customize",
+      "guarantee": "100% Secure Purchase • Instant Confirmation",
+      "modalTitle": "Talk to an expert",
+      "modalSubtitle": "We answer your questions in minutes. Write to us to confirm availability or adapt the route.",
+      "formName": "Your Name",
+      "formEmail": "Your Email",
+      "formPhone": "WhatsApp",
+      "formMessage": "How can we help?",
+      "formSubmit": "Contact via WhatsApp"
     }
   },
   "AboutPage": {
@@ -185,8 +357,10 @@
       "subtitle": "Meet the team behind your next adventure"
     },
     "Intro": {
+      "eyebrow": "Our Essence",
       "title": "Your Travel Agency for Unforgettable Tours and Adventures in Cusco",
-      "description": "At Huaypo Adventure, our purpose is simple: to transform your trip to Peru into a collection of authentic and memorable experiences. As your expert travel agency in Cusco, we are passionately dedicated to revealing the incomparable cultural richness and majestic natural beauty that this region offers."
+      "highlight": "At Huaypo Adventure, our purpose is simple:",
+      "description": "to transform your trip to Peru into a collection of authentic and memorable experiences. As your expert travel agency in Cusco, we are passionately dedicated to revealing the incomparable cultural richness and majestic natural beauty that this region and all of Peru offer."
     },
     "Team": {
       "title": "Our Huaypo Adventure Team",
@@ -223,6 +397,345 @@
     },
     "Certifications": {
       "title": "We are a fully authorized company"
+    }
+  },
+  "BlogPage": {
+    "Hero": {
+      "title": "Adventure Journal",
+      "subtitle": "Stories, guides, and secrets of the Andes for the modern traveler."
+    },
+    "Categories": {
+      "all": "View All",
+      "culture": "Culture & History",
+      "adventure": "Adventure",
+      "tips": "Travel Tips",
+      "gastronomy": "Gastronomy"
+    },
+    "Featured": {
+      "badge": "Featured Article",
+      "readTime": "8 min read"
+    },
+    "Newsletter": {
+      "title": "Join our traveler community",
+      "subtitle": "Get exclusive guides and secret discounts directly to your inbox.",
+      "placeholder": "Your email address",
+      "button": "Subscribe"
+    }
+  },
+  "BlogPost": {
+    "meta": {
+      "author": "Written by",
+      "date": "Published on",
+      "readTime": "min read",
+      "share": "Share this article"
+    },
+    "related": "More travel stories"
+  },
+  "PlanPage": {
+    "Hero": {
+      "title": "Plan your trip with us"
+    },
+    "Intro": {
+      "title": "Plan Your Trip to Machu Picchu and Experience the Best of Peru",
+      "description": "Embark on a journey tailored to you with our exclusive custom trips through Peru. Our personalized itineraries give you the freedom to design your perfect trip, from the timing and mode of travel to the level of service and hotel quality."
+    },
+    "Form": {
+      "title": "Design Your Perfect Experience",
+      "subtitle": "Tell us your travel dreams and we'll handle the logistics.",
+      "contactInfo": "Your Details",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone / WhatsApp",
+      "country": "Country of Residence",
+      "tripDetails": "Your Adventure",
+      "dates": "Tentative Dates",
+      "arrival": "Arrival",
+      "departure": "Departure",
+      "travelers": "Travelers",
+      "travelersPlaceholder": "# People",
+      "interestsTitle": "What are you looking for in this trip?",
+      "interests": {
+        "culture": "Culture & History",
+        "adventure": "Adventure & Trekking",
+        "nature": "Nature",
+        "food": "Gastronomy",
+        "luxury": "Luxury & Comfort",
+        "family": "Family"
+      },
+      "budgetTitle": "Approximate budget per person (USD)",
+      "budget": {
+        "economy": "$500 - $1000",
+        "standard": "$1000 - $2000",
+        "premium": "$2000 - $3500",
+        "luxury": "$3500+"
+      },
+      "hotelTitle": "Preferred Hotel Category",
+      "messageLabel": "Tell us more (Special requirements, questions...)",
+      "submit": "Request Custom Proposal",
+      "sending": "Sending...",
+      "success": "Thank you! An expert advisor will contact you soon."
+    }
+  },
+  "ContactPage": {
+    "Hero": {
+      "title": "Contact Us"
+    },
+    "Intro": {
+      "title": "Contact our adventure travel specialists in Peru",
+      "address": "Address",
+      "addressValue": "Calle Marquez, Cusco City, Peru",
+      "phone": "Phone / WhatsApp",
+      "email": "Email Address",
+      "socials": "Our social networks"
+    },
+    "Form": {
+      "name": "Name and Surname",
+      "email": "Email Address",
+      "phone": "Phone / WhatsApp",
+      "country": "Country",
+      "message": "Comment or Message",
+      "terms": "I have read and accept the Privacy Policy.",
+      "submit": "Send Inquiry"
+    },
+    "Map": {
+      "title": "Our location on Google Maps"
+    }
+  },
+  "EsnnaPage": {
+    "Hero": {
+      "title": "ESNNA Code"
+    },
+    "Intro": {
+      "title": "Code of Conduct against CSEC and our Commitment",
+      "description": "At Huaypo Adventure, we are committed to promoting and carrying out joint actions to prevent and eliminate the Commercial Sexual Exploitation of Children and Adolescents (CSEC) in our services."
+    },
+    "Content": {
+      "title": "Measures Adopted by Huaypo Adventure Against CSEC",
+      "p1": "At <strong class='text-brand-blue'>Huaypo Adventure</strong>, we are firmly committed to adhering to the Code of Conduct to combat the Commercial Sexual Exploitation of Children and Adolescents (ESNNA).",
+      "list1Title": "1. Institutional Commitments",
+      "list1Items": [
+        "<strong>Signing the Code of Conduct:</strong> As a travel agency and tour operator, we have signed the Code of Conduct against ESNNA with GERCETUR.",
+        "<strong>Stakeholder Adherence:</strong> All stakeholders involved in our operations (guides, cooks, drivers...) align with this commitment."
+      ],
+      "list2Title": "2. Awareness and Training Actions",
+      "list2Items": [
+        "<strong>Internal Training:</strong> We promote awareness among our entire team.",
+        "<strong>External Training:</strong> We extend this training to our stakeholders."
+      ],
+      "list3Title": "3. Specific Prohibitions",
+      "list3Desc": "In accordance with our values, no member participates in:",
+      "list3Items": [
+        "The use of children and adolescents in pornographic activities.",
+        "Sexual tourism.",
+        "Trafficking of children and adolescents for sexual exploitation purposes."
+      ],
+      "final": "At Huaypo Adventure, our mission is not only to offer unforgettable experiences but also to act as agents of social change."
+    }
+  },
+  "PrivacyPage": {
+    "Hero": {
+      "title": "Privacy Policy"
+    },
+    "Content": {
+      "intro": "Please read our data and privacy policies carefully. Our visitors are important to us, so we want you to be aware of our terms regarding the handling of your information.",
+      "sections": [
+        {
+          "title": "We are Huaypo Adventure",
+          "content": "Our website address is: https://www.huaypoadventure.com"
+        },
+        {
+          "title": "Comments",
+          "content": "When visitors leave comments on the site, we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.<br><br>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it."
+        },
+        {
+          "title": "Media",
+          "content": "If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website."
+        },
+        {
+          "title": "Cookies",
+          "content": "If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment.<br><br>If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies."
+        },
+        {
+          "title": "Embedded content from other websites",
+          "content": "Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website."
+        },
+        {
+          "title": "Who we share your data with",
+          "content": "If you request a password reset, your IP address will be included in the reset email."
+        },
+        {
+          "title": "How long we retain your data",
+          "content": "If you leave a comment, the comment and its metadata are retained indefinitely. For users that register on our website, we also store the personal information they provide in their user profile."
+        },
+        {
+          "title": "What rights you have over your data",
+          "content": "If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us."
+        }
+      ]
+    }
+  },
+  "TermsPage": {
+    "Hero": {
+      "title": "Terms and Conditions"
+    },
+    "Content": {
+      "intro": "Please read the following information carefully before booking your trip. These policies ensure transparency and safety for your experience with Huaypo Adventure.",
+      "sections": [
+        {
+          "title": "1. Details required for booking",
+          "content": "Please book once you have all details: names, passports, nationalities, and ages. If any member does not have a passport, please wait until they do.<br><br><strong>Important:</strong> The name and passport number submitted will be printed on your travel permit. After purchase, we CANNOT change this data. Inca Trail wardens check this information strictly."
+        },
+        {
+          "title": "2. Arrival in Cusco and Acclimatization",
+          "content": "It is recommended to arrive in Cusco at least 2 days before departure for acclimatization and to make the final payment. Ideally, 3 days prior ensures better adaptation to the altitude."
+        },
+        {
+          "title": "3. Payments and Deposits",
+          "content": "A 50% deposit of the total amount is required when booking. Once received, we will send the confirmed services voucher within 24 hours for your approval."
+        },
+        {
+          "title": "4. Student Discounts",
+          "content": "Valid up to 25 years old with an Original Student ID (with photo, details, and expiration date). You must send us a clear scan when booking. If not sent on time or the original is not carried on the trip, the adult rate will apply."
+        },
+        {
+          "title": "5. Child Discounts",
+          "content": "Children under 16 receive a discount. You must send us a scan of the child's passport 3 days before accepting the booking."
+        },
+        {
+          "title": "Modification Policies",
+          "content": "<ul class='list-disc pl-5 space-y-2'><li>More than 30 days before: No penalty.</li><li>Between 15 and 30 days: 20% penalty.</li><li>Less than 15 days: 30% penalty.</li></ul><br><strong>Note for Inca Trail:</strong> Passport number changes are only allowed up to 5 days before."
+        },
+        {
+          "title": "Cancellation Policies",
+          "content": "<ul class='list-disc pl-5 space-y-2'><li>More than 30 days before: 15% penalty (administrative fees).</li><li>Between 10 and 30 days: 20% penalty.</li><li>Between 2 and 9 days: 50% penalty.</li></ul><br><strong>For Inca Trail (Strict):</strong><br><ul class='list-disc pl-5 space-y-2 mt-2'><li>More than 30 days: 50% penalty.</li><li>15-30 days: 70% penalty.</li><li>Less than 15 days: 100% penalty.</li></ul>"
+        }
+      ]
+    }
+  },
+  "BookingWizard": {
+    "title": "Book Your Adventure",
+    "steps": {
+      "journey": "Journey",
+      "travelers": "Travelers",
+      "payment": "Payment"
+    },
+    "Step1": {
+      "title": "Configure Your Trip",
+      "subtitle": "Select the experience and start date.",
+      "tourLabel": "Choose your tour",
+      "selectTour": "Select an experience...",
+      "dateLabel": "Start Date",
+      "travelersLabel": "Number of travelers",
+      "pax": "People",
+      "serviceLabel": "Service Type",
+      "groupOption": "Group Service",
+      "privateOption": "Private Service",
+      "nextBtn": "Next Step"
+    },
+    "Step2": {
+      "title": "Passenger Details",
+      "subtitle": "We need exact details for permits.",
+      "travelerTitle": "Traveler",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "country": "Country",
+      "docNumber": "Document Number",
+      "birthDate": "Date of Birth",
+      "pocTitle": "Primary Contact",
+      "email": "Email Address",
+      "phone": "Phone / WhatsApp",
+      "backBtn": "Back",
+      "nextBtn": "Continue to Payment"
+    },
+    "Step3": {
+      "title": "Confirmation & Payment",
+      "subtitle": "Choose how you want to pay for your adventure.",
+      "backBtn": "Back to details"
+    }
+  },
+  "ThankYouPage": {
+    "title": "Booking Successful",
+    "subtitle": "Your Andean adventure is confirmed. We have generated your booking ID:",
+    "details": {
+      "tour": "Experience",
+      "date": "Start Date",
+      "status": "Status",
+      "confirmed": "Payment Confirmed"
+    },
+    "nextSteps": {
+      "title": "What happens next?"
+    },
+    "social": {
+      "text": "Join our traveler community on Instagram"
+    },
+    "backHome": "Back to Home"
+  },
+  "PartnersPage": {
+    "Hero": {
+      "title": "Strategic Partners",
+      "subtitle": "We operate your dreams"
+    },
+    "Segments": {
+      "title": "Tailored Solutions",
+      "subtitle": "We design our operation according to your agency's profile.",
+      "intl": {
+        "title": "International Agencies",
+        "desc": "Your trusted DMC in Peru. We operate the entire destination with global standards."
+      },
+      "local": {
+        "title": "Peruvian Agencies",
+        "desc": "Maximize profitability on high-demand routes."
+      }
+    },
+    "Features": {
+      "title": "Invisible Operation, Visible Quality",
+      "description": "Your client is YOURS. We are the silent engine ensuring excellence at every step, allowing you to scale without operational worries.",
+      "f1": { "title": "100% White Label", "desc": "No Huaypo branding. Your clients see your brand." },
+      "f2": { "title": "Modern Fleet", "desc": "Sprinters and buses equipped with AC and GPS." },
+      "f3": { "title": "Ambassador Guides", "desc": "Trained to represent your agency professionally." },
+      "f4": { "title": "Formal Company", "desc": "Invoicing, insurance, and permits up to date." }
+    },
+    "Form": {
+      "title": "Become a Partner",
+      "subtitle": "Fill out the form to receive our 2025 confidential rates.",
+      "agencyName": "Agency Name",
+      "website": "Website",
+      "email": "Corporate Email",
+      "phone": "Phone / WhatsApp",
+      "originSelect": "Agency Type",
+      "volumeSelect": "Estimated Monthly Volume",
+      "submit": "Request Rates"
+    }
+  },
+  "ComplaintsPage": {
+    "Hero": {
+      "title": "Complaints Book",
+      "subtitle": "We are here to listen and improve continuously."
+    },
+    "Form": {
+      "sections": {
+        "consumer": "1. Consumer Identification",
+        "good": "2. Contracted Good/Service",
+        "detail": "3. Claim Detail"
+      },
+      "labels": {
+        "name": "First Name",
+        "lastname": "Last Name",
+        "docNumber": "Document Number (ID/Passport)",
+        "phone": "Phone Number",
+        "email": "Email Address",
+        "address": "Address",
+        "amount": "Claimed Amount (S/)",
+        "description": "Description of Good/Service",
+        "detailDesc": "Detail of Claim or Complaint",
+        "request": "Specific Request / Solution"
+      },
+      "submit": "Submit Complaint Sheet",
+      "success": {
+        "title": "Complaint Sheet Sent",
+        "subtitle": "We have registered your case correctly. Our quality team will review it shortly."
+      }
     }
   }
 }

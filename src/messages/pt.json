@@ -1,8 +1,4 @@
 {
-  "HomePage": {
-    "title": "Bem-vindo ao Huaypo Adventure",
-    "subtitle": "Descubra a magia dos Andes"
-  },
   "Navbar": {
     "links": {
       "about": "Quem Somos",
@@ -14,13 +10,66 @@
       "incaTrail": "Trilha Inca",
       "machuPicchu": "Machu Picchu",
       "alternateTreks": "Trilhas Alternativas",
-      "dayTours": "Tours de um Dia",
+      "dayTours": "Passeios de Um Dia",
       "packages": "Pacotes Peru"
     },
     "actions": {
       "language": "Português",
       "explore": "Explorar Tudo"
     }
+  },
+  "Footer": {
+    "company": {
+      "title": "Empresa",
+      "about": "Sobre Nós",
+      "partners": "Parceiros Estratégicos",
+      "code": "Código ESNNA"
+    },
+    "collections": {
+      "title": "Coleções",
+      "inca": "Trilha Inca",
+      "salkantay": "Trilha Salkantay",
+      "machu": "Machu Picchu",
+      "rainbow": "Montanha Colorida",
+      "day": "Passeios de Um Dia",
+      "alt": "Trilhas Alternativas",
+      "packages": "Pacotes Peru"
+    },
+    "links": {
+      "title": "Links Úteis",
+      "plan": "Planeje sua aventura",
+      "contact": "Fale Conosco",
+      "blog": "Blog",
+      "terms": "Termos e Condições",
+      "privacy": "Políticas de Privacidade"
+    },
+    "hours": {
+      "title": "Horário de Atendimento",
+      "weekdays": "Segunda a Sexta",
+      "weekdaysTime": "7h – 20h",
+      "saturdays": "Sábados",
+      "saturdaysTime": "7h – 20h",
+      "address": "Calle Marquez 122 - Of. 112 Cusco - Peru"
+    },
+    "contacts": {
+      "title": "Contatos",
+      "email": "info@huaypoadventure.com",
+      "phone": "+51 935 327 962",
+      "whatsapp": "+51 903 102 547"
+    },
+    "socials": "Nossas redes sociais",
+    "payments": "Formas de pagamento",
+    "complaints": "Livro de reclamações",
+    "legal": {
+      "companyName": "Huaypo Adventure, Tour Operator E.I.R.L.",
+      "ruc": "RUC: 20608615106",
+      "rights": "Todos os direitos reservados",
+      "developer": "Desenvolvido por"
+    }
+  },
+  "HomePage": {
+    "title": "Bem-vindo à Huaypo Adventure",
+    "subtitle": "Descubra a magia dos Andes"
   },
   "Hero": {
     "title": "Explore Machu Picchu, Vale Sagrado, Vinicunca e o Melhor do Peru",
@@ -112,7 +161,7 @@
       },
       {
         "title": "Experiência incrível",
-        "text": "Hermosa experiencia, el trato super amable, en todo momento nos brindaron información necesaria y hacer paddle en la laguna fue extraordinario, mil gracias a Carlos y Juvenal.",
+        "text": "Hermosa experiencia, el trato super amable, em todo momento nos brindaron información necesaria y hacer paddle en la laguna fue extraordinario, mil gracias a Carlos y Juvenal.",
         "author": "Kelia L",
         "date": "Out 2025"
       },
@@ -131,52 +180,175 @@
     ]
   },
   "Partners": {
-    "title": "Fazemos parte de"
+    "title": "Somos parte de"
   },
-  "Footer": {
-    "company": {
-      "title": "Empresa",
-      "about": "Sobre Nós",
-      "projects": "Projetos Sociais",
-      "code": "Código ESNNA"
+  "ToursPage": {
+    "Hero": {
+      "title": "Descubra Todos os Nossos Tours",
+      "subtitle": "Aventuras em Cusco e Maravilhas do Peru"
     },
-    "tours": {
-      "title": "Nossos Tours",
-      "packages": "Pacotes Peru",
-      "dayTrips": "Day Trips",
-      "machuPicchu": "Machu Picchu",
-      "treks": "Trilhas Alternativas"
+    "Gallery": {
+      "eyebrow": "A Diferença Huaypo",
+      "title": "Desenhamos Experiências, Não Apenas Roteiros",
+      "description": "Fugimos do convencional para conectar você com a alma dos Andes. Desde acessos exclusivos e rotas inexploradas até o luxo da autenticidade local. Sua viagem ao Peru merece ser tão única quanto sua própria história.",
+      "stat1": "100% Personalizado",
+      "stat2": "Guias de Elite"
     },
-    "links": {
-      "title": "Links Úteis",
-      "plan": "Planeje sua aventura",
-      "contact": "Fale Conosco",
-      "blog": "Blog",
-      "terms": "Termos e Condições",
-      "privacy": "Políticas e Privacidade"
+    "CategoriesGrid": {
+      "title": "Explore por Estilo de Viagem",
+      "subtitle": "Encontre a experiência perfeita para você em nossos nichos especializados.",
+      "items": {
+        "inca": "Trilha Inca Lendária",
+        "salkantay": "Trilha Salkantay",
+        "machu": "Machu Picchu de Trem",
+        "rainbow": "Montanha Colorida",
+        "day": "Passeios de Um Dia",
+        "alt": "Trilhas Alternativas",
+        "packages": "Pacotes Peru Completo"
+      }
     },
-    "hours": {
-      "title": "Horário de Atendimento",
-      "weekdays": "Segunda a Sexta",
-      "weekdaysTime": "7h – 20h",
-      "saturdays": "Sábados",
-      "saturdaysTime": "7h – 20h",
-      "address": "Calle Marquez 122 - Of. 112 Cusco - Peru"
+    "Categories": {
+      "inca": "Trilha Inca & Machu Picchu",
+      "treks": "Trilhas Alternativas",
+      "day": "Passeios de Um Dia",
+      "packages": "Pacotes Peru"
     },
-    "contacts": {
-      "title": "Nossos Contatos",
-      "email": "info@huaypoadventure.com",
-      "phone": "+51 935 327 962",
-      "whatsapp": "+51 903 102 547"
+    "CTA": {
+      "title": "Procurando uma experiência sob medida?",
+      "subtitle": "Se nenhum de nossos roteiros se encaixa perfeitamente, nossos especialistas locais podem desenhar a aventura exata que você tem em mente.",
+      "button": "Desenhar minha viagem grátis"
+    }
+  },
+  "CollectionPage": {
+    "Intro": {
+      "title": "Informações Essenciais",
+      "difficulty": "Dificuldade",
+      "season": "Melhor época",
+      "altitude": "Altitude Máx",
+      "permit": "Permissões"
     },
-    "socials": "Nossas redes sociais",
-    "payments": "Formas de pagamento",
-    "complaints": "Livro de reclamações",
-    "legal": {
-      "companyName": "Huaypo Adventure, Tour Operator E.I.R.L.",
-      "ruc": "RUC: 20608615106",
-      "rights": "Todos os direitos reservados",
-      "developer": "Desenvolvido por"
+    "Expertise": {
+      "title": "Guia Especializado do Destino",
+      "subtitle": "Tudo o que você precisa saber antes de reservar sua aventura.",
+      "readMore": "Ler guia completo"
+    },
+    "FAQ": {
+      "title": "Perguntas Frequentes"
+    },
+    "Insider": {
+      "weatherTitle": "Clima e Temporadas",
+      "weatherSubtitle": "Chance de chuva vs. Sol",
+      "drySeason": "Seca (Alta)",
+      "wetSeason": "Chuvosa",
+      "difficultyTitle": "Nível de Exigência",
+      "difficultySubtitle": "Você está pronto para o desafio?",
+      "packingTitle": "Indispensáveis na mochila",
+      "whyTitle": "Por que escolher esta rota?",
+      "months": ["JAN", "FEV", "MAR", "ABR", "MAI", "JUN", "JUL", "AGO", "SET", "OUT", "NOV", "DEZ"]
+    },
+    "Availability": {
+      "title": "Disponibilidade Oficial Trilha Inca 2026",
+      "subtitle": "As permissões esgotam meses antes. Verifique o status atual por mês.",
+      "status": {
+        "high": "Disponível",
+        "medium": "Últimas Vagas",
+        "low": "Crítico",
+        "sold": "Esgotado",
+        "closed": "Fechado (Manutenção)"
+      },
+      "cta": "Consultar data exata via WhatsApp",
+      "modal": {
+        "close": "Fechar",
+        "legend": "Status por dia:",
+        "days": ["D", "S", "T", "Q", "Q", "S", "S"]
+      }
+    }
+  },
+  "TourDetail": {
+    "Hero": {
+      "from": "A partir de",
+      "perPerson": "por pessoa",
+      "reviews": "avaliações",
+      "galleryBtn": "Ver todas as fotos",
+      "videoLabel": "Vídeo Experience"
+    },
+    "Info": {
+      "duration": "Duração",
+      "difficulty": "Dificuldade",
+      "altitude": "Altitude Máx",
+      "groupSize": "Grupo",
+      "activity": "Atividade"
+    },
+    "Overview": {
+      "title": "Sobre esta aventura",
+      "places": "Destinos Principais",
+      "season": "Melhor Temporada",
+      "readMore": "Ler descrição completa",
+      "readLess": "Mostrar menos",
+      "statsTitle": "Perfil de Elevação & Dados",
+      "maxAltitude": "Altitude Máx",
+      "distance": "Distância Total",
+      "difficulty": "Nível Técnico"
+    },
+    "Tabs": {
+      "itinerary": "Roteiro",
+      "inclusions": "O que Inclui",
+      "packing": "O que Levar",
+      "price": "Preços e Tarifas",
+      "faq": "Perguntas"
+    },
+    "Price": {
+      "groupTitle": "Serviço em Grupo",
+      "groupDesc": "Junte-se a viajantes do mundo todo. Saídas diárias garantidas.",
+      "privateTitle": "Serviço Privado",
+      "privateDesc": "Desfrute de uma experiência exclusiva no seu próprio ritmo com seu grupo.",
+      "perPerson": "por pessoa",
+      "pax": "passageiros",
+      "tableHeader": "Tabela de Tarifas Privadas"
+    },
+    "Inclusions": {
+      "title": "O que está incluído?",
+      "included": "O que incluímos",
+      "notIncluded": "O que não incluímos"
+    },
+    "Itinerary": {
+      "title": "Roteiro Dia a Dia",
+      "expandAll": "Expandir tudo",
+      "collapseAll": "Recolher tudo",
+      "day": "Dia",
+      "meals": "Alimentação:",
+      "accommodation": "Hospedagem:",
+      "distance": "Distância:"
+    },
+    "Packing": {
+      "essentials": "Essenciais",
+      "clothing": "Roupas e Calçados",
+      "gear": "Equipamento"
+    },
+    "Map": {
+      "title": "Rota da Viagem"
+    },
+    "Booking": {
+      "title": "Configure sua viagem",
+      "priceFrom": "Preço a partir de",
+      "perPerson": "por viajante",
+      "serviceType": "Modalidade",
+      "group": "Serviço em Grupo",
+      "private": "Serviço Privado",
+      "dateLabel": "Data de início",
+      "datePlaceholder": "Selecionar data",
+      "guestsLabel": "Viajantes",
+      "total": "Preço Final",
+      "bookBtn": "Reservar e Pagar",
+      "inquireBtn": "Tenho dúvidas / Personalizar",
+      "guarantee": "Compra 100% Segura • Confirmação Imediata",
+      "modalTitle": "Fale com um especialista",
+      "modalSubtitle": "Resolvemos suas dúvidas em minutos. Escreva-nos para confirmar disponibilidade ou adaptar a rota.",
+      "formName": "Seu Nome",
+      "formEmail": "Seu E-mail",
+      "formPhone": "WhatsApp",
+      "formMessage": "Quais são suas dúvidas?",
+      "formSubmit": "Contatar por WhatsApp"
     }
   },
   "AboutPage": {
@@ -185,8 +357,10 @@
       "subtitle": "Conheça a equipe por trás da sua próxima aventura"
     },
     "Intro": {
+      "eyebrow": "Nossa Essência",
       "title": "Sua Agência de Viagens para Tours e Aventuras Inesquecíveis em Cusco",
-      "description": "Na Huaypo Adventure, nosso propósito é simples: transformar sua viagem ao Peru em uma coleção de experiências autênticas e memoráveis. Como sua agência de viagens especialista em Cusco, dedicamo-nos apaixonadamente a revelar a incomparável riqueza cultural e a majestosa beleza natural que esta região oferece."
+      "highlight": "Na Huaypo Adventure, nossa razão de ser é simples:",
+      "description": "transformar sua viagem ao Peru em uma coleção de experiências autênticas e memoráveis. Como sua agência de viagens especialista em Cusco, dedicamo-nos apaixonadamente a revelar a incomparável riqueza cultural e a majestosa beleza natural que esta região e todo o Peru oferecem."
     },
     "Team": {
       "title": "Nossa Equipe Huaypo Adventure",
@@ -223,6 +397,345 @@
     },
     "Certifications": {
       "title": "Somos uma empresa plenamente autorizada"
+    }
+  },
+  "BlogPage": {
+    "Hero": {
+      "title": "Diário de Aventuras",
+      "subtitle": "Histórias, guias e segredos dos Andes para o viajante moderno."
+    },
+    "Categories": {
+      "all": "Ver Tudo",
+      "culture": "Cultura e História",
+      "adventure": "Aventura",
+      "tips": "Dicas de Viagem",
+      "gastronomy": "Gastronomia"
+    },
+    "Featured": {
+      "badge": "Artigo em Destaque",
+      "readTime": "Leitura de 8 min"
+    },
+    "Newsletter": {
+      "title": "Junte-se à nossa comunidade de viajantes",
+      "subtitle": "Receba guias exclusivos e descontos secretos diretamente no seu e-mail.",
+      "placeholder": "Seu endereço de e-mail",
+      "button": "Inscrever-me"
+    }
+  },
+  "BlogPost": {
+    "meta": {
+      "author": "Escrito por",
+      "date": "Publicado em",
+      "readTime": "min de leitura",
+      "share": "Compartilhar este artigo"
+    },
+    "related": "Mais histórias de viagem"
+  },
+  "PlanPage": {
+    "Hero": {
+      "title": "Planeje sua viagem conosco"
+    },
+    "Intro": {
+      "title": "Planeje sua Viagem a Machu Picchu e Viva o Melhor do Peru",
+      "description": "Embarque em uma jornada feita sob medida com nossas viagens exclusivas pelo Peru. Nossos itinerários personalizados dão a você a liberdade de desenhar sua viagem perfeita, desde o momento e modo de viajar até o nível de serviço e a qualidade dos hotéis."
+    },
+    "Form": {
+      "title": "Desenhe sua Experiência Perfeita",
+      "subtitle": "Conte-nos seus sonhos de viagem e nós cuidamos da logística.",
+      "contactInfo": "Seus Dados",
+      "name": "Nome Completo",
+      "email": "E-mail",
+      "phone": "Telefone / WhatsApp",
+      "country": "País de Residência",
+      "tripDetails": "Sua Aventura",
+      "dates": "Datas Tentativas",
+      "arrival": "Chegada",
+      "departure": "Partida",
+      "travelers": "Viajantes",
+      "travelersPlaceholder": "N° Pessoas",
+      "interestsTitle": "O que você busca nesta viagem?",
+      "interests": {
+        "culture": "Cultura e História",
+        "adventure": "Aventura e Trekking",
+        "nature": "Natureza",
+        "food": "Gastronomia",
+        "luxury": "Luxo e Conforto",
+        "family": "Família"
+      },
+      "budgetTitle": "Orçamento aproximado por pessoa (USD)",
+      "budget": {
+        "economy": "$500 - $1000",
+        "standard": "$1000 - $2000",
+        "premium": "$2000 - $3500",
+        "luxury": "$3500+"
+      },
+      "hotelTitle": "Categoria de Hotel Preferida",
+      "messageLabel": "Conte-nos mais (Requisitos especiais, dúvidas...)",
+      "submit": "Solicitar Proposta Personalizada",
+      "sending": "Enviando...",
+      "success": "Obrigado! Um consultor especialista entrará em contato em breve."
+    }
+  },
+  "ContactPage": {
+    "Hero": {
+      "title": "Fale Conosco"
+    },
+    "Intro": {
+      "title": "Contate nossos especialistas em viagens de aventura no Peru",
+      "address": "Endereço",
+      "addressValue": "Calle Marquez, Cidade de Cusco, Peru",
+      "phone": "Telefone / WhatsApp",
+      "email": "E-mail",
+      "socials": "Nossas redes sociais"
+    },
+    "Form": {
+      "name": "Nome e Sobrenome",
+      "email": "E-mail",
+      "phone": "Telefone / WhatsApp",
+      "country": "País",
+      "message": "Comentário ou Mensagem",
+      "terms": "Li e aceito a Política de Privacidade.",
+      "submit": "Enviar consulta"
+    },
+    "Map": {
+      "title": "Nossa localização no Google Maps"
+    }
+  },
+  "EsnnaPage": {
+    "Hero": {
+      "title": "Código ESNNA"
+    },
+    "Intro": {
+      "title": "Código de Conduta contra a ESNNA e nosso Compromisso",
+      "description": "Na Huaypo Adventure, assumimos o compromisso de promover e realizar uma série de ações conjuntas para prevenir e eliminar o problema da Exploração Sexual de Crianças e Adolescentes na prestação de nossos serviços."
+    },
+    "Content": {
+      "title": "Medidas Adotadas pela Huaypo Adventure Contra a ESNNA",
+      "p1": "Na <strong class='text-brand-blue'>Huaypo Adventure</strong>, estamos firmemente comprometidos com a adesão ao Código de Conduta para combater a Exploração Sexual Comercial de Crianças e Adolescentes (ESNNA).",
+      "list1Title": "1. Compromissos Institucionais",
+      "list1Items": [
+        "<strong>Assinatura do Código de Conduta:</strong> Como agência de viagens e operadora de turismo, assinamos o Código de Conduta contra a ESNNA perante a GERCETUR.",
+        "<strong>Adesão de Partes Interessadas:</strong> Todas as partes interessadas envolvidas em nossas operações (guias, cozinheiros, motoristas...) estão alinhadas com este compromisso."
+      ],
+      "list2Title": "2. Ações de Sensibilização e Formação",
+      "list2Items": [
+        "<strong>Capacitação Interna:</strong> Promovemos a sensibilização de toda a nossa equipe.",
+        "<strong>Capacitação Externa:</strong> Estendemos essa formação às nossas partes interessadas."
+      ],
+      "list3Title": "3. Proibições Específicas",
+      "list3Desc": "De acordo com nossos valores, nenhum membro participa de:",
+      "list3Items": [
+        "Utilização de crianças e adolescentes em atividades pornográficas.",
+        "Turismo sexual.",
+        "Tráfico de crianças e adolescentes para fins de exploração sexual."
+      ],
+      "final": "Na Huaypo Adventure, nossa missão não é apenas oferecer experiências inesquecíveis, mas também atuar como agentes de mudança social."
+    }
+  },
+  "PrivacyPage": {
+    "Hero": {
+      "title": "Política de Privacidade"
+    },
+    "Content": {
+      "intro": "Leia atentamente nossas políticas de dados e privacidade da informação. Nossos visitantes são importantes para nós, por isso queremos que tenham conhecimento de nossos termos no manuseio de suas informações.",
+      "sections": [
+        {
+          "title": "Somos Huaypo Adventure",
+          "content": "O endereço do nosso site é: https://www.huaypoadventure.com"
+        },
+        {
+          "title": "Comentários",
+          "content": "Quando os visitantes deixam comentários no site, coletamos os dados mostrados no formulário de comentários, além do endereço IP do visitante e de dados do navegador para auxiliar na detecção de spam.<br><br>Uma sequência anonimizada criada a partir do seu endereço de e-mail (também chamada de hash) pode ser enviada ao serviço Gravatar para verificar se você o está usando."
+        },
+        {
+          "title": "Mídia",
+          "content": "Se você enviar imagens para o site, evite enviar imagens com dados de localização incorporados (EXIF GPS). Visitantes do site podem baixar e extrair quaisquer dados de localização das imagens no site."
+        },
+        {
+          "title": "Cookies",
+          "content": "Ao deixar um comentário no site, você poderá optar por salvar seu nome, e-mail e site nos cookies. Isso visa seu conforto, assim você não precisará preencher seus dados novamente quando fizer outro comentário.<br><br>Se você tem uma conta e acessa este site, um cookie temporário será criado para determinar se seu navegador aceita cookies."
+        },
+        {
+          "title": "Conteúdo incorporado de outros sites",
+          "content": "Artigos neste site podem incluir conteúdo incorporado (como vídeos, imagens, artigos, etc.). Conteúdos incorporados de outros sites se comportam exatamente da mesma forma como se o visitante estivesse visitando o outro site."
+        },
+        {
+          "title": "Com quem compartilhamos seus dados",
+          "content": "Se você solicitar uma redefinição de senha, seu endereço IP será incluído no e-mail de redefinição."
+        },
+        {
+          "title": "Por quanto tempo mantemos seus dados",
+          "content": "Se você deixar um comentário, o comentário e seus metadados são conservados indefinidamente. Para usuários que se registram no nosso site, também armazenamos as informações pessoais que fornecem no seu perfil de usuário."
+        },
+        {
+          "title": "Quais os seus direitos sobre seus dados",
+          "content": "Se você tiver uma conta neste site ou se tiver deixado comentários, pode solicitar um arquivo exportado dos dados pessoais que mantemos sobre você, inclusive quaisquer dados que nos tenha fornecido."
+        }
+      ]
+    }
+  },
+  "TermsPage": {
+    "Hero": {
+      "title": "Termos e Condições"
+    },
+    "Content": {
+      "intro": "Por favor, leia atentamente as informações a seguir antes de fazer sua reserva de viagem. Estas políticas garantem a transparência e segurança de sua experiência com a Huaypo Adventure.",
+      "sections": [
+        {
+          "title": "1. Detalhes necessários para reservar",
+          "content": "Faça a reserva assim que tiver todos os dados: nomes, passaportes, nacionalidades e idades. Se algum membro não tiver passaporte, aguarde até tê-lo.<br><br><strong>Importante:</strong> O nome e número do passaporte enviados serão impressos em sua permissão de viagem. Após a compra, NÃO podemos alterar esses dados. Os guardas da Trilha Inca verificarão essas informações rigorosamente."
+        },
+        {
+          "title": "2. Chegada em Cusco e Aclimatação",
+          "content": "Recomenda-se chegar a Cusco pelo menos 2 dias antes da saída para aclimatação e para realizar o pagamento restante. Idealmente, 3 dias antes garantem uma melhor adaptação à altitude."
+        },
+        {
+          "title": "3. Pagamentos e Depósitos",
+          "content": "É necessário um depósito de 50% do valor total ao reservar. Uma vez recebido, enviaremos o voucher de serviços confirmados em 24 horas para sua conferência."
+        },
+        {
+          "title": "4. Descontos para Estudantes",
+          "content": "Válido até 25 anos com Carteira de Estudante Original (com foto, dados e validade). Deve nos enviar uma digitalização clara ao reservar. Se não for enviada a tempo ou não for apresentada no original durante a viagem, será cobrada a tarifa de adulto."
+        },
+        {
+          "title": "5. Descontos para Crianças",
+          "content": "Menores de 16 anos recebem desconto. Deve nos enviar a digitalização do passaporte da criança 3 dias antes de aceitar a reserva."
+        },
+        {
+          "title": "Políticas de Modificação",
+          "content": "<ul class='list-disc pl-5 space-y-2'><li>Antes de 30 dias: Sem penalidade.</li><li>Entre 15 e 30 dias: 20% de penalidade.</li><li>Menos de 15 dias: 30% de penalidade.</li></ul><br><strong>Nota para Trilha Inca:</strong> Alterações de número de passaporte só são permitidas até 5 dias antes."
+        },
+        {
+          "title": "Políticas de Cancelamento",
+          "content": "<ul class='list-disc pl-5 space-y-2'><li>Antes de 30 dias: 15% de penalidade (despesas administrativas).</li><li>Entre 10 e 30 dias: 20% de penalidade.</li><li>Entre 2 e 9 dias: 50% de penalidade.</li></ul><br><strong>Para Trilha Inca (Estrito):</strong><br><ul class='list-disc pl-5 space-y-2 mt-2'><li>Antes de 30 dias: 50% penalidade.</li><li>15-30 dias: 70% penalidade.</li><li>Menos de 15 dias: 100% penalidade.</li></ul>"
+        }
+      ]
+    }
+  },
+  "BookingWizard": {
+    "title": "Reserve sua Aventura",
+    "steps": {
+      "journey": "Sua Viagem",
+      "travelers": "Viajantes",
+      "payment": "Pagamento"
+    },
+    "Step1": {
+      "title": "Configure sua Viagem",
+      "subtitle": "Selecione a experiência e a data de início.",
+      "tourLabel": "Escolha seu tour",
+      "selectTour": "Selecione uma experiência...",
+      "dateLabel": "Data de início",
+      "travelersLabel": "Número de viajantes",
+      "pax": "Pessoas",
+      "serviceLabel": "Tipo de Serviço",
+      "groupOption": "Serviço em Grupo",
+      "privateOption": "Serviço Privado",
+      "nextBtn": "Próximo Passo"
+    },
+    "Step2": {
+      "title": "Dados dos Passageiros",
+      "subtitle": "Precisamos dos dados exatos para as permissões.",
+      "travelerTitle": "Viajante",
+      "firstName": "Nomes",
+      "lastName": "Sobrenomes",
+      "gender": "Gênero",
+      "country": "País",
+      "docNumber": "Número do Documento",
+      "birthDate": "Data de Nascimento",
+      "pocTitle": "Contato Principal",
+      "email": "E-mail",
+      "phone": "Telefone / WhatsApp",
+      "backBtn": "Voltar",
+      "nextBtn": "Continuar para Pagamento"
+    },
+    "Step3": {
+      "title": "Confirmação e Pagamento",
+      "subtitle": "Escolha como deseja pagar sua aventura.",
+      "backBtn": "Voltar aos dados"
+    }
+  },
+  "ThankYouPage": {
+    "title": "Reserva Confirmada",
+    "subtitle": "Sua aventura nos Andes está confirmada. Geramos seu código de reserva:",
+    "details": {
+      "tour": "Experiência",
+      "date": "Data de Início",
+      "status": "Status",
+      "confirmed": "Pagamento Confirmado"
+    },
+    "nextSteps": {
+      "title": "O que acontece agora?"
+    },
+    "social": {
+      "text": "Junte-se à nossa comunidade no Instagram"
+    },
+    "backHome": "Voltar ao Início"
+  },
+  "PartnersPage": {
+    "Hero": {
+      "title": "Parceiros Estratégicos",
+      "subtitle": "Operamos seus sonhos"
+    },
+    "Segments": {
+      "title": "Soluções Sob Medida",
+      "subtitle": "Desenhamos nossa operação de acordo com o perfil da sua agência.",
+      "intl": {
+        "title": "Agências Internacionais",
+        "desc": "Seu DMC de confiança no Peru. Operamos todo o destino com padrões globais."
+      },
+      "local": {
+        "title": "Agências Peruanas",
+        "desc": "Maximize sua rentabilidade nas rotas de alta demanda."
+      }
+    },
+    "Features": {
+      "title": "Operação Invisível, Qualidade Visível",
+      "description": "Seu cliente é SEU. Somos o motor silencioso que garante a excelência em cada passo, permitindo que você escale sem preocupações operacionais.",
+      "f1": { "title": "100% Marca Branca", "desc": "Sem logos da Huaypo. Seus clientes veem sua marca." },
+      "f2": { "title": "Frota Moderna", "desc": "Sprinters e ônibus equipados com ar-condicionado e GPS." },
+      "f3": { "title": "Guias Embaixadores", "desc": "Treinados para representar sua agência com profissionalismo." },
+      "f4": { "title": "Empresa Formal", "desc": "Faturamento, seguros e licenças em dia." }
+    },
+    "Form": {
+      "title": "Torne-se um Parceiro",
+      "subtitle": "Preencha o formulário e receba nosso tarifário confidencial 2025.",
+      "agencyName": "Nome da Agência",
+      "website": "Site",
+      "email": "E-mail Corporativo",
+      "phone": "Telefone / WhatsApp",
+      "originSelect": "Tipo de Agência",
+      "volumeSelect": "Volume Mensal Estimado",
+      "submit": "Solicitar Tarifário"
+    }
+  },
+  "ComplaintsPage": {
+    "Hero": {
+      "title": "Livro de Reclamações",
+      "subtitle": "Estamos aqui para ouvir e melhorar continuamente."
+    },
+    "Form": {
+      "sections": {
+        "consumer": "1. Identificação do Consumidor Reclamante",
+        "good": "2. Identificação do Bem Contratado",
+        "detail": "3. Detalhe da Reclamação"
+      },
+      "labels": {
+        "name": "Nomes",
+        "lastname": "Sobrenomes",
+        "docNumber": "Nº Documento (RG/Passaporte)",
+        "phone": "Telefone / Celular",
+        "email": "E-mail",
+        "address": "Endereço",
+        "amount": "Valor Reclamado (S/)",
+        "description": "Descrição do Bem ou Serviço",
+        "detailDesc": "Detalhe da Reclamação ou Queixa",
+        "request": "Pedido / Solicitação Concreta"
+      },
+      "submit": "Enviar Folha de Reclamação",
+      "success": {
+        "title": "Folha de Reclamação Enviada",
+        "subtitle": "Registramos seu caso corretamente. Nossa equipe de qualidade analisará em breve."
+      }
     }
   }
 }

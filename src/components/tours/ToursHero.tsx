@@ -9,7 +9,7 @@ export default function ToursHero() {
   return (
     <section className="relative w-full h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden bg-brand-dark rounded-b-[3rem]">
       
-      {/* Video de Fondo */}
+      {/* Video */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <iframe 
             src="https://player.vimeo.com/video/1114982004?background=1&quality=1080p&autoplay=1&loop=1&byline=0&title=0" 
@@ -20,7 +20,8 @@ export default function ToursHero() {
       </div>
 
       {/* Contenido */}
-      <div className="relative z-10 text-center px-4">
+      {/* CAMBIO APLICADO: Añadimos 'pt-20 lg:pt-32' para seguridad */}
+      <div className="relative z-10 text-center px-4 pt-20 lg:pt-32">
         <Container>
             <h1 className="text-4xl md:text-6xl font-black text-white mb-4 tracking-tight drop-shadow-xl">
                 {t("title")}

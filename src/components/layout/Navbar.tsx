@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react"; // Agregamos useRef
 import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname, useRouter } from "@/i18n/routing";
-import { Menu, X, ChevronDown, Phone } from "lucide-react";
+import { Menu, X, ChevronDown, Phone, ChevronRight, ArrowRight } from "lucide-react";
 import Container from "@/components/ui/Container";
 
 const FLAGS: Record<string, { src: string; label: string }> = {
@@ -242,28 +242,48 @@ export default function Navbar() {
                             <span className="absolute bottom-0 left-0 w-full h-[3px] bg-brand-yellow scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-center"></span>
                         </Link>
                         
-                        <div className="absolute top-full left-0 w-[320px] bg-white rounded-b-2xl rounded-tr-2xl shadow-[0_20px_50px_-12px_rgba(0,0,0,0.15)] p-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 cursor-default border border-gray-100 border-t-0">
-                            <div className="absolute -top-[6px] left-10 w-4 h-4 bg-white transform rotate-45 border-t border-l border-gray-100"></div>
-                            <div className="flex flex-col gap-2 relative z-10">
+                        {/* --- DROPDOWN MENU PREMIUM --- */}
+                        <div className="absolute top-full left-0 w-[340px] bg-white rounded-[1.5rem] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.15)] p-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-4 group-hover:translate-y-2 cursor-default border border-gray-100 ring-1 ring-black/5 overflow-hidden">
+                            
+                            {/* Decoración Triángulo Superior Sutil */}
+                            <div className="absolute -top-1.5 left-8 w-4 h-4 bg-white transform rotate-45 border-t border-l border-gray-100"></div>
+
+                            <div className="flex flex-col gap-1 relative z-10">
                                 {item.subItems?.map((sub, i) => (
-                                    <Link key={i} href={sub.href} className="flex items-center justify-between group/item p-3 rounded-lg hover:bg-brand-pale transition-colors duration-200">
-                                        <span className="text-[14px] text-gray-600 font-bold group-hover/item:text-brand-blue transition-colors leading-tight">
+                                    <Link 
+                                        key={i} 
+                                        href={sub.href} 
+                                        className="group/item flex items-center justify-between p-3.5 rounded-xl hover:bg-brand-pale transition-all duration-200"
+                                    >
+                                        <span className="text-[14px] text-gray-600 font-bold group-hover/item:text-brand-blue transition-colors leading-snug">
                                             {sub.label}
                                         </span>
-                                        {sub.badge && (
-                                            <span className="shrink-0 bg-brand-orange/10 text-brand-orange border border-brand-orange/20 text-[9px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wide">
-                                                Hot
+                                        
+                                        {/* Lógica de Badge vs Flecha */}
+                                        {sub.badge ? (
+                                            <span className="shrink-0 bg-red-50 text-red-500 border border-red-100 text-[9px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                                                {sub.badge === "Más Vendido" ? "HOT" : sub.badge}
                                             </span>
+                                        ) : (
+                                            // La flecha aparece solo al hacer hover si no hay badge
+                                            <ChevronRight 
+                                                size={16} 
+                                                className="text-brand-blue opacity-0 -translate-x-2 group-hover/item:opacity-100 group-hover/item:translate-x-0 transition-all duration-300" 
+                                                strokeWidth={2.5}
+                                            />
                                         )}
                                     </Link>
                                 ))}
                             </div>
-                            <div className="mt-5 pt-4 border-t border-gray-100 relative z-10">
+                            
+                            {/* Footer Link (Botón de Texto) */}
+                            <div className="mt-2 pt-2 border-t border-gray-100 relative z-10">
                                 <Link 
                                     href={item.href} 
-                                    className="block w-full text-center text-[12px] font-black text-brand-dark hover:text-brand-blue uppercase tracking-widest transition-colors py-2"
+                                    className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-[11px] font-black text-brand-dark hover:bg-gray-50 hover:text-brand-blue uppercase tracking-widest transition-all duration-300 group/link"
                                 >
-                                    Explore All Tours &rarr;
+                                    {t("actions.explore")} 
+                                    <ArrowRight size={14} className="transition-transform group-hover/link:translate-x-1" strokeWidth={2.5} />
                                 </Link>
                             </div>
                         </div>
